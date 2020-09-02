@@ -1,0 +1,1191 @@
+; Delta Controls Database File, Vendor=8, Device=9744
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DEV9744.ObjectId , r
+DEV9744
+DEV9744.ObjType , r
+Device
+DEV9744.Name , w
+07P - VAV04
+DEV9744.Flags , r
+
+DEV9744.Value , r
+Operational
+DEV9744.Vendor , r
+Delta Controls
+DEV9744.VendorId , r
+8.000000
+DEV9744.ModelName , r
+DZNT-T0
+DEV9744.FirmwareVersion , r
+5024
+DEV9744.HardwareRevision , r
+1.3 
+DEV9744.ApplicationSWVersion , r
+4.0
+DEV9744.ProtocolVersion , r
+1
+DEV9744.ProtocolRevision , r
+3
+DEV9744.ProtocolServicesSupported , r
+SubscribeCOV, ReadProperty, ReadPropertyMultiple, WriteProperty, DeviceCommunicationControl, ReinitializeDevice, WhoHas, WhoIs
+DEV9744.ProtocolObjectTypesSupported , r
+Analog Input, Analog Value, Device
+DEV9744.ObjectList[1] , r
+DEV9744
+DEV9744.ObjectList[2] , r
+AI1
+DEV9744.ObjectList[3] , r
+AI2
+DEV9744.ObjectList[4] , r
+AI3
+DEV9744.ObjectList[5] , r
+AI4
+DEV9744.ObjectList[6] , r
+AV1
+DEV9744.ObjectList[7] , r
+AV2
+DEV9744.ObjectList[8] , r
+AV3
+DEV9744.ObjectList[9] , r
+AV4
+DEV9744.ObjectList[10] , r
+AV5
+DEV9744.ObjectList[11] , r
+AV6
+DEV9744.ObjectList[12] , r
+AV7
+DEV9744.ObjectList[13] , r
+AV8
+DEV9744.ObjectList[14] , r
+AV9
+DEV9744.ObjectList[15] , r
+AV10
+DEV9744.ObjectList[16] , r
+AV11
+DEV9744.ObjectList[17] , r
+AV12
+DEV9744.ObjectList[18] , r
+AV13
+DEV9744.ObjectList[19] , r
+AV14
+DEV9744.ObjectList[20] , r
+AV15
+DEV9744.ObjectList[21] , r
+AV16
+DEV9744.ObjectList[22] , r
+AV17
+DEV9744.ObjectList[23] , r
+AV18
+DEV9744.ObjectList[24] , r
+AV19
+DEV9744.ObjectList[25] , r
+AV20
+DEV9744.ObjectList[26] , r
+AV21
+DEV9744.ObjectList[27] , r
+AV22
+DEV9744.ObjectList[28] , r
+AV23
+DEV9744.ObjectList[29] , r
+AV24
+DEV9744.ObjectList[30] , r
+AV25
+DEV9744.ObjectList[31] , r
+AV26
+DEV9744.ObjectList[32] , r
+AV27
+DEV9744.ObjectList[33] , r
+AV28
+DEV9744.ObjectList[34] , r
+AV29
+DEV9744.ObjectList[35] , r
+AV30
+DEV9744.ObjectList[36] , r
+AV31
+DEV9744.ObjectList[37] , r
+AV32
+DEV9744.ObjectList[38] , r
+AV33
+DEV9744.ObjectList[39] , r
+AV34
+DEV9744.ObjectList[40] , r
+AV35
+DEV9744.ObjectList[41] , r
+AV36
+DEV9744.ObjectList[42] , r
+AV37
+DEV9744.ObjectList[43] , r
+AV38
+DEV9744.ObjectList[44] , r
+AV39
+DEV9744.ObjectList[45] , r
+AV40
+DEV9744.ObjectList[46] , r
+AV41
+DEV9744.ObjectList[47] , r
+AV42
+DEV9744.ObjectList[48] , r
+AV43
+DEV9744.ObjectList[49] , r
+AV44
+DEV9744.ObjectList[50] , r
+AV45
+DEV9744.MaxAPDULength , r
+480.000000
+DEV9744.SegmentationSupported , r
+No Segmentation
+DEV9744.APDUTimeout , r
+60000.000000
+DEV9744.APDURetries , r
+3.000000
+DEV9744.ResetCount , r
+106.000000
+DEV9744.MaxMaster , w
+127.000000
+DEV9744.MaxInfoFrames , r
+8.000000
+DEV9744.KnownDevices[1] , r
+
+DEV9744.CommissionFlag , w
+Not Commissioned
+DEV9744.Platform , r
+Bacstat 2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AI1.ObjectId , r
+AI1
+AI1.ObjType , r
+Analog Input
+AI1.Name , r
+Temperature
+AI1.Flags , r
+
+AI1.OutOfService , w
+FALSE
+AI1.Value , w
+23
+AI1.StatusFlags , r
+
+AI1.Units , w
+°C
+AI1.CommissionFlag , r
+Commissioned
+AI1.EventState , r
+Normal
+AI1.Reliability , r
+No Fault Detected
+AI1.COVIncrement , w
+0.5
+AI1.ADFilter , w
+90.000000
+AI1.ADValue , r
+2134.000000
+AI1.Calibration , w
+0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AI2.ObjectId , r
+AI2
+AI2.ObjType , r
+Analog Input
+AI2.Name , w
+Air Flow Input
+AI2.Flags , r
+
+AI2.OutOfService , w
+FALSE
+AI2.Value , w
+94.502373
+AI2.StatusFlags , r
+
+AI2.Units , w
+l/s
+AI2.CommissionFlag , r
+Commissioned
+AI2.EventState , r
+Normal
+AI2.Reliability , r
+No Fault Detected
+AI2.COVIncrement , w
+10
+AI2.ADFilter , w
+90.000000
+AI2.ADValue , r
+568.000000
+AI2.Calibration , w
+0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AI3.ObjectId , r
+AI3
+AI3.ObjType , r
+Analog Input
+AI3.Name , w
+Supply Air Temperature
+AI3.Flags , r
+
+AI3.OutOfService , w
+FALSE
+AI3.Value , w
+-49.099998
+AI3.StatusFlags , r
+
+AI3.Units , w
+°C
+AI3.CommissionFlag , r
+Commissioned
+AI3.EventState , r
+Normal
+AI3.Reliability , r
+No Fault Detected
+AI3.COVIncrement , w
+1
+AI3.ADFilter , w
+90.000000
+AI3.ADValue , r
+4084.000000
+AI3.Calibration , w
+0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV1.ObjectId , r
+AV1
+AV1.ObjType , r
+Analog Value
+AV1.Name , r
+Option Register
+AV1.Flags , w
+
+AV1.OutOfService , w
+FALSE
+AV1.Value , w
+0
+AV1.StatusFlags , r
+
+AV1.Units , w
+
+AV1.EventState , r
+Normal
+AV1.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV2.ObjectId , r
+AV2
+AV2.ObjType , r
+Analog Value
+AV2.Name , r
+BoxMode Temp Switch Points
+AV2.Flags , w
+
+AV2.OutOfService , w
+FALSE
+AV2.Value , w
+232.699997
+AV2.StatusFlags , r
+
+AV2.Units , w
+°C
+AV2.EventState , r
+Normal
+AV2.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV3.ObjectId , r
+AV3
+AV3.ObjType , r
+Analog Value
+AV3.Name , r
+Hot Water Valve Runtime
+AV3.Flags , w
+
+AV3.OutOfService , w
+FALSE
+AV3.Value , w
+120
+AV3.StatusFlags , r
+
+AV3.Units , w
+sec
+AV3.EventState , r
+Normal
+AV3.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV4.ObjectId , r
+AV4
+AV4.ObjType , r
+Analog Value
+AV4.Name , r
+KeyPress
+AV4.Flags , r
+
+AV4.OutOfService , w
+FALSE
+AV4.Value , r
+3
+AV4.StatusFlags , r
+
+AV4.Units , r
+
+AV4.EventState , r
+Normal
+AV4.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV5.ObjectId , r
+AV5
+AV5.ObjType , r
+Analog Value
+AV5.Name , w
+External
+AV5.Flags , r
+
+AV5.OutOfService , w
+FALSE
+AV5.Value , w
+0
+AV5.StatusFlags , r
+
+AV5.Units , w
+
+AV5.EventState , r
+Normal
+AV5.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV8.ObjectId , r
+AV8
+AV8.ObjType , r
+Analog Value
+AV8.Name , r
+Day Maximum
+AV8.Flags , r
+
+AV8.OutOfService , w
+FALSE
+AV8.Value , w
+25
+AV8.StatusFlags , r
+
+AV8.Units , r
+°C
+AV8.EventState , r
+Normal
+AV8.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV7.ObjectId , r
+AV7
+AV7.ObjType , r
+Analog Value
+AV7.Name , r
+Day Minimum
+AV7.Flags , r
+
+AV7.OutOfService , w
+FALSE
+AV7.Value , w
+22
+AV7.StatusFlags , r
+
+AV7.Units , r
+°C
+AV7.EventState , r
+Normal
+AV7.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV6.ObjectId , r
+AV6
+AV6.ObjType , r
+Analog Value
+AV6.Name , r
+Day Setpoint
+AV6.Flags , r
+
+AV6.OutOfService , w
+FALSE
+AV6.Value , w
+22
+AV6.StatusFlags , r
+
+AV6.Units , r
+°C
+AV6.EventState , r
+Normal
+AV6.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV9.ObjectId , r
+AV9
+AV9.ObjType , r
+Analog Value
+AV9.Name , r
+Day Differential
+AV9.Flags , r
+
+AV9.OutOfService , w
+FALSE
+AV9.Value , w
+0
+AV9.StatusFlags , r
+
+AV9.Units , r
+°C
+AV9.EventState , r
+Normal
+AV9.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV10.ObjectId , r
+AV10
+AV10.ObjType , r
+Analog Value
+AV10.Name , r
+Night Heat Setpoint
+AV10.Flags , r
+
+AV10.OutOfService , w
+FALSE
+AV10.Value , w
+22
+AV10.StatusFlags , r
+
+AV10.Units , r
+°C
+AV10.EventState , r
+Normal
+AV10.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV11.ObjectId , r
+AV11
+AV11.ObjType , r
+Analog Value
+AV11.Name , r
+Night Cool Setpoint
+AV11.Flags , r
+
+AV11.OutOfService , w
+FALSE
+AV11.Value , w
+30
+AV11.StatusFlags , r
+
+AV11.Units , r
+°C
+AV11.EventState , r
+Normal
+AV11.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV12.ObjectId , r
+AV12
+AV12.ObjType , r
+Analog Value
+AV12.Name , r
+Application - DZM-DG3-VAV
+AV12.Flags , r
+
+AV12.OutOfService , w
+FALSE
+AV12.Value , w
+5
+AV12.StatusFlags , r
+
+AV12.Units , r
+
+AV12.EventState , r
+Normal
+AV12.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV13.ObjectId , r
+AV13
+AV13.ObjType , r
+Analog Value
+AV13.Name , r
+Alg Mode
+AV13.Flags , r
+Out Of Service
+AV13.OutOfService , w
+TRUE
+AV13.Value , w
+1
+AV13.StatusFlags , r
+Out Of Service
+AV13.Units , r
+
+AV13.EventState , r
+Normal
+AV13.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV14.ObjectId , r
+AV14
+AV14.ObjType , r
+Analog Value
+AV14.Name , r
+Controller Status - Cooling
+AV14.Flags , r
+
+AV14.OutOfService , r
+FALSE
+AV14.Value , r
+-100
+AV14.StatusFlags , r
+
+AV14.Units , r
+%
+AV14.EventState , r
+Normal
+AV14.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV15.ObjectId , r
+AV15
+AV15.ObjType , r
+Analog Value
+AV15.Name , r
+Display Code
+AV15.Flags , r
+
+AV15.OutOfService , w
+FALSE
+AV15.Value , w
+3237
+AV15.StatusFlags , r
+
+AV15.Units , r
+
+AV15.EventState , r
+Normal
+AV15.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV16.ObjectId , r
+AV16
+AV16.ObjType , r
+Analog Value
+AV16.Name , r
+AI1 Calibration
+AV16.Flags , r
+
+AV16.OutOfService , w
+FALSE
+AV16.Value , w
+0
+AV16.StatusFlags , r
+
+AV16.Units , r
+°C
+AV16.EventState , r
+Normal
+AV16.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV17.ObjectId , r
+AV17
+AV17.ObjType , r
+Analog Value
+AV17.Name , r
+AI2 Calibration
+AV17.Flags , r
+
+AV17.OutOfService , w
+FALSE
+AV17.Value , w
+0
+AV17.StatusFlags , r
+
+AV17.Units , r
+l/s
+AV17.EventState , r
+Normal
+AV17.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV18.ObjectId , r
+AV18
+AV18.ObjType , r
+Analog Value
+AV18.Name , r
+AI3 Calibration
+AV18.Flags , r
+
+AV18.OutOfService , w
+FALSE
+AV18.Value , w
+0
+AV18.StatusFlags , r
+
+AV18.Units , r
+°C
+AV18.EventState , r
+Normal
+AV18.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV19.ObjectId , r
+AV19
+AV19.ObjType , r
+Analog Value
+AV19.Name , r
+Proportional Band
+AV19.Flags , r
+
+AV19.OutOfService , w
+FALSE
+AV19.Value , w
+2
+AV19.StatusFlags , r
+
+AV19.Units , r
+°C
+AV19.EventState , r
+Normal
+AV19.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV20.ObjectId , r
+AV20
+AV20.ObjType , r
+Analog Value
+AV20.Name , r
+Reset Rate
+AV20.Flags , r
+
+AV20.OutOfService , w
+FALSE
+AV20.Value , w
+1
+AV20.StatusFlags , r
+
+AV20.Units , r
+
+AV20.EventState , r
+Normal
+AV20.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV21.ObjectId , r
+AV21
+AV21.ObjType , r
+Analog Value
+AV21.Name , r
+VAV Damper Config (D)
+AV21.Flags , r
+
+AV21.OutOfService , w
+FALSE
+AV21.Value , w
+0
+AV21.StatusFlags , r
+
+AV21.Units , r
+
+AV21.EventState , r
+Normal
+AV21.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV22.ObjectId , r
+AV22
+AV22.ObjType , r
+Analog Value
+AV22.Name , r
+Heating Configuration
+AV22.Flags , r
+
+AV22.OutOfService , w
+FALSE
+AV22.Value , w
+0
+AV22.StatusFlags , r
+
+AV22.Units , r
+
+AV22.EventState , r
+Normal
+AV22.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV23.ObjectId , r
+AV23
+AV23.ObjType , r
+Analog Value
+AV23.Name , r
+Fan Configuration
+AV23.Flags , r
+
+AV23.OutOfService , w
+FALSE
+AV23.Value , w
+0
+AV23.StatusFlags , r
+
+AV23.Units , r
+
+AV23.EventState , r
+Normal
+AV23.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV25.ObjectId , r
+AV25
+AV25.ObjType , r
+Analog Value
+AV25.Name , r
+Air Flow Factor
+AV25.Flags , r
+
+AV25.OutOfService , w
+FALSE
+AV25.Value , w
+1000
+AV25.StatusFlags , r
+
+AV25.Units , r
+cfm
+AV25.EventState , r
+Normal
+AV25.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV24.ObjectId , r
+AV24
+AV24.ObjType , r
+Analog Value
+AV24.Name , r
+Damper Run Time
+AV24.Flags , r
+
+AV24.OutOfService , w
+FALSE
+AV24.Value , w
+90
+AV24.StatusFlags , r
+
+AV24.Units , r
+sec
+AV24.EventState , r
+Normal
+AV24.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV27.ObjectId , r
+AV27
+AV27.ObjType , r
+Analog Value
+AV27.Name , r
+Cool Flow Maximum
+AV27.Flags , r
+
+AV27.OutOfService , w
+FALSE
+AV27.Value , w
+611
+AV27.StatusFlags , r
+
+AV27.Units , r
+l/s
+AV27.EventState , r
+Normal
+AV27.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV26.ObjectId , r
+AV26
+AV26.ObjType , r
+Analog Value
+AV26.Name , r
+Cool Flow Minimum
+AV26.Flags , r
+
+AV26.OutOfService , w
+FALSE
+AV26.Value , w
+31
+AV26.StatusFlags , r
+
+AV26.Units , r
+l/s
+AV26.EventState , r
+Normal
+AV26.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV29.ObjectId , r
+AV29
+AV29.ObjType , r
+Analog Value
+AV29.Name , r
+Hot Flow Maximum
+AV29.Flags , r
+
+AV29.OutOfService , w
+FALSE
+AV29.Value , w
+335
+AV29.StatusFlags , r
+
+AV29.Units , r
+l/s
+AV29.EventState , r
+Normal
+AV29.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV28.ObjectId , r
+AV28
+AV28.ObjType , r
+Analog Value
+AV28.Name , r
+Hot Flow Minimum
+AV28.Flags , r
+
+AV28.OutOfService , w
+FALSE
+AV28.Value , w
+60
+AV28.StatusFlags , r
+
+AV28.Units , r
+l/s
+AV28.EventState , r
+Normal
+AV28.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV30.ObjectId , r
+AV30
+AV30.ObjType , r
+Analog Value
+AV30.Name , r
+Baud Rate
+AV30.Flags , r
+
+AV30.OutOfService , w
+FALSE
+AV30.Value , w
+76800
+AV30.StatusFlags , r
+
+AV30.Units , r
+
+AV30.EventState , r
+Normal
+AV30.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV31.ObjectId , r
+AV31
+AV31.ObjType , r
+Analog Value
+AV31.Name , r
+PIN
+AV31.Flags , r
+
+AV31.OutOfService , w
+FALSE
+AV31.Value , w
+1011
+AV31.StatusFlags , r
+
+AV31.Units , r
+
+AV31.EventState , r
+Normal
+AV31.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV32.ObjectId , r
+AV32
+AV32.ObjType , r
+Analog Value
+AV32.Name , r
+Service Tool PIN.Mode
+AV32.Flags , r
+
+AV32.OutOfService , w
+FALSE
+AV32.Value , w
+110.199997
+AV32.StatusFlags , r
+
+AV32.Units , r
+
+AV32.EventState , r
+Normal
+AV32.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV33.ObjectId , r
+AV33
+AV33.ObjType , r
+Analog Value
+AV33.Name , r
+Box Mode -  CMD Cool
+AV33.Flags , r
+
+AV33.OutOfService , w
+FALSE
+AV33.Value , w
+0
+AV33.StatusFlags , r
+
+AV33.Units , r
+
+AV33.EventState , r
+Normal
+AV33.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV34.ObjectId , r
+AV34
+AV34.ObjType , r
+Analog Value
+AV34.Name , r
+System Stats
+AV34.Flags , r
+
+AV34.OutOfService , r
+FALSE
+AV34.Value , r
+1
+AV34.StatusFlags , r
+
+AV34.Units , r
+
+AV34.EventState , r
+Normal
+AV34.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV35.ObjectId , r
+AV35
+AV35.ObjType , r
+Analog Value
+AV35.Name , r
+System Log
+AV35.Flags , r
+
+AV35.OutOfService , r
+FALSE
+AV35.Value , r
+10
+AV35.StatusFlags , r
+
+AV35.Units , r
+
+AV35.EventState , r
+Normal
+AV35.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV36.ObjectId , r
+AV36
+AV36.ObjType , r
+Analog Value
+AV36.Name , r
+AirFlow Setpoint
+AV36.Flags , r
+
+AV36.OutOfService , w
+FALSE
+AV36.Value , w
+611
+AV36.StatusFlags , r
+
+AV36.Units , r
+l/s
+AV36.EventState , r
+Normal
+AV36.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV37.ObjectId , r
+AV37
+AV37.ObjType , r
+Analog Value
+AV37.Name , r
+Damper Position (D) 
+AV37.Flags , r
+
+AV37.OutOfService , w
+FALSE
+AV37.Value , w
+100
+AV37.StatusFlags , r
+
+AV37.Units , r
+%
+AV37.EventState , r
+Normal
+AV37.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV38.ObjectId , r
+AV38
+AV38.ObjType , r
+Analog Value
+AV38.Name , r
+Mux Output3
+AV38.Flags , r
+
+AV38.OutOfService , w
+FALSE
+AV38.Value , w
+0
+AV38.StatusFlags , r
+
+AV38.Units , r
+%
+AV38.EventState , r
+Normal
+AV38.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV39.ObjectId , r
+AV39
+AV39.ObjType , r
+Analog Value
+AV39.Name , r
+Mux Output4
+AV39.Flags , r
+
+AV39.OutOfService , w
+FALSE
+AV39.Value , w
+0
+AV39.StatusFlags , r
+
+AV39.Units , r
+%
+AV39.EventState , r
+Normal
+AV39.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV40.ObjectId , r
+AV40
+AV40.ObjType , r
+Analog Value
+AV40.Name , r
+Mux Output5
+AV40.Flags , r
+
+AV40.OutOfService , w
+FALSE
+AV40.Value , w
+0
+AV40.StatusFlags , r
+
+AV40.Units , r
+%
+AV40.EventState , r
+Normal
+AV40.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV41.ObjectId , r
+AV41
+AV41.ObjType , r
+Analog Value
+AV41.Name , r
+Mux Output6
+AV41.Flags , r
+
+AV41.OutOfService , w
+FALSE
+AV41.Value , w
+0
+AV41.StatusFlags , r
+
+AV41.Units , r
+%
+AV41.EventState , r
+Normal
+AV41.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV42.ObjectId , r
+AV42
+AV42.ObjType , r
+Analog Value
+AV42.Name , r
+AI4 Calibration
+AV42.Flags , r
+
+AV42.OutOfService , w
+FALSE
+AV42.Value , w
+0
+AV42.StatusFlags , r
+
+AV42.Units , r
+%
+AV42.EventState , r
+Normal
+AV42.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV43.ObjectId , r
+AV43
+AV43.ObjType , r
+Analog Value
+AV43.Name , r
+Current Space Demand
+AV43.Flags , r
+
+AV43.OutOfService , r
+FALSE
+AV43.Value , r
+-50
+AV43.StatusFlags , r
+
+AV43.Units , r
+%
+AV43.EventState , r
+Normal
+AV43.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV44.ObjectId , r
+AV44
+AV44.ObjType , r
+Analog Value
+AV44.Name , r
+UnOc Override TO Time
+AV44.Flags , r
+
+AV44.OutOfService , w
+FALSE
+AV44.Value , w
+60
+AV44.StatusFlags , r
+
+AV44.Units , r
+min
+AV44.EventState , r
+Normal
+AV44.COVIncrement , r
+0.1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AV45.ObjectId , r
+AV45
+AV45.ObjType , r
+Analog Value
+AV45.Name , r
+TimeClk Filter Value
+AV45.Flags , r
+
+AV45.OutOfService , w
+FALSE
+AV45.Value , w
+0
+AV45.StatusFlags , r
+
+AV45.Units , r
+min
+AV45.EventState , r
+Normal
+AV45.COVIncrement , r
+0.1

@@ -1,0 +1,1341 @@
+08-Jul-2020, 13:34:00.81:  File: C:\Users\Public\Delta Controls\3.40\Logs\SiServerStatus.log
+08-Jul-2020, 13:34:00.81:  *******************************************
+08-Jul-2020, 13:34:00.81:  Delta Server Initialization:
+08-Jul-2020, 13:34:00.81:      Basic Database load: OK 
+08-Jul-2020, 13:34:00.81:      Data Dictionary Initialization: OK 
+08-Jul-2020, 13:34:00.81:      Data Path: C:\Users\Public\Delta Controls\3.40\Sites\
+08-Jul-2020, 13:34:00.81:      TX Files: C:\Program Files\Delta Controls\3.40\System\systext.txo
+08-Jul-2020, 13:34:00.82:  ======================================
+08-Jul-2020, 13:34:00.82:  
+08-Jul-2020, 13:34:00.82:  Delta Server Initialized....
+08-Jul-2020, 13:34:00.82:  
+08-Jul-2020, 13:34:01.28:  ================================== 
+08-Jul-2020, 13:34:01.28:  >>> CONNECTION Msg received from client with hClient (outgoing pipe) = 0x00000378
+08-Jul-2020, 13:34:01.28:      RegionID -> 3; hConnection -> 1
+08-Jul-2020, 13:34:01.28:      4096000 bytes Allocated
+08-Jul-2020, 13:34:01.28:  ================================== 
+08-Jul-2020, 13:34:01.28:  
+08-Jul-2020, 13:34:09.96:  LOCAL SITE SETUP:
+08-Jul-2020, 13:34:09.96:      SiteName: Caixa
+08-Jul-2020, 13:34:09.96:      WorkStation: Manutenção
+08-Jul-2020, 13:34:09.96:      Device#: 6
+08-Jul-2020, 13:34:09.96:      Data Path: C:\Users\Public\Delta Controls\3.40\Sites\
+08-Jul-2020, 13:34:09.96:      Local Data Path: C:\Users\Public\Delta Controls\3.40\Sites\
+08-Jul-2020, 13:34:09.96:      Local Panel # 6
+08-Jul-2020, 13:34:10.07:      Loading Security Database: OK
+08-Jul-2020, 13:34:10.15:      LOCAL SITE SETUP: failed
+08-Jul-2020, 13:34:10.15:   LOCAL SITE SETUP FAILED: Can not Initialize Local Site Caixa
+08-Jul-2020, 13:34:17.36:  LOCAL SITE SETUP:
+08-Jul-2020, 13:34:17.36:      SiteName: Caixa
+08-Jul-2020, 13:34:17.36:      WorkStation: Manutenção
+08-Jul-2020, 13:34:17.36:      Device#: 6
+08-Jul-2020, 13:34:17.36:      Data Path: C:\Users\Public\Delta Controls\3.40\Sites\
+08-Jul-2020, 13:34:17.36:      Local Data Path: C:\Users\Public\Delta Controls\3.40\Sites\
+08-Jul-2020, 13:34:17.36:      Local Panel # 6
+08-Jul-2020, 13:34:17.39:      Loading Security Database: OK
+08-Jul-2020, 13:34:17.42:      Loading User Databases: OK
+08-Jul-2020, 13:34:17.42:      Descriptor File: 'C:\Users\Public\Delta Controls\3.40\Sites\Manutenção\dsshared1.dsf'
+08-Jul-2020, 13:34:17.77:      Initializing Descriptors: OK
+08-Jul-2020, 13:34:17.82:      Initializing Remote Descriptors: OK
+08-Jul-2020, 13:34:17.83:      Initializing Descriptor Processing: OK
+08-Jul-2020, 13:34:17.86:      Local Database Fixup: OK
+08-Jul-2020, 13:34:17.87:      Local Descriptor Load: OK
+08-Jul-2020, 13:34:17.87:      Opening Action Log: OK
+08-Jul-2020, 13:34:17.89:      RPL Thread created: OK
+08-Jul-2020, 13:34:17.91:      Creating Thread Table: OK
+08-Jul-2020, 13:34:18.05:      Creating Worker threads: OK
+08-Jul-2020, 13:34:18.05:      LOCAL SITE SETUP: completed
+08-Jul-2020, 13:34:18.05:   
+08-Jul-2020, 13:34:18.05:  LOGIN: SUCCESSFUL
+08-Jul-2020, 13:34:18.05:       UserName: DELTA
+08-Jul-2020, 13:34:18.05:       UserID: 54525953
+08-Jul-2020, 13:34:18.07:  
+08-Jul-2020, 13:34:18.07:  NETWORK SETUP:
+08-Jul-2020, 13:34:18.07:      Object System DLL Path: 'C:\Program Files\Delta Controls\3.40\System\' or 'C:\Program Files\Delta Controls\3.40\'
+08-Jul-2020, 13:34:18.07:      Loading Object Systems:
+08-Jul-2020, 13:34:18.07:        BACnet
+08-Jul-2020, 13:34:18.07:      Initializing Object Systems
+08-Jul-2020, 13:34:18.11:        Initialized BACnet 
+08-Jul-2020, 13:34:18.29:      Starting Object Systems:
+08-Jul-2020, 13:34:18.29:        Starting BACnet
+08-Jul-2020, 13:34:18.46:      Creating maintenance thread: OK
+08-Jul-2020, 13:34:18.65:      NETWORK SETUP: Complete
+08-Jul-2020, 13:34:18.65:  
+08-Jul-2020, 13:34:19.27:      Network Login: OK
+08-Jul-2020, 13:34:19.28:      Descriptor Processing: OK
+08-Jul-2020, 13:34:19.29:      Data Exchange: OK
+08-Jul-2020, 13:34:19.35:  19806.900s  FIND DEVS: *  ServiceID: -  Request: -  Queue: 323  Result: in progress
+08-Jul-2020, 13:34:19.36:  19806.900s  CONFIRM DEV: BAC.500.DEV500  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:19.38:  19806.900s  CONFIRM DEV: BAC.500.DEV500  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:19.38:  19806.900s  CONFIRM DEV: BAC.501.DEV501  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:19.40:      Object Execution: OK
+08-Jul-2020, 13:34:19.42:      Alarm Handling: OK
+08-Jul-2020, 13:34:19.42:      NETWORK LOGIN: Complete
+08-Jul-2020, 13:34:19.61:  19806.900s  CONFIRM DEV: BAC.501.DEV501  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:19.61:  19806.900s  CONFIRM DEV: BAC.502.DEV502  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:19.77:  19806.900s  CONFIRM DEV: BAC.502.DEV502  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:19.77:  19806.900s  CONFIRM DEV: BAC.503.DEV503  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:19.93:  19806.900s  CONFIRM DEV: BAC.503.DEV503  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:19.93:  19806.900s  CONFIRM DEV: BAC.504.DEV504  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:20.11:  19806.900s  CONFIRM DEV: BAC.504.DEV504  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:20.11:  19806.900s  CONFIRM DEV: BAC.505.DEV505  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:20.28:  19806.900s  CONFIRM DEV: BAC.505.DEV505  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:20.28:  19806.900s  CONFIRM DEV: BAC.506.DEV506  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:20.38:  28.361s  GET:  BAC.6   ServiceID: 6  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:20.39:  28.361s  GET:  BAC.6   ServiceID: 6  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:20.44:  19806.900s  CONFIRM DEV: BAC.506.DEV506  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:20.44:  19806.900s  CONFIRM DEV: BAC.507.DEV507  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:20.60:  19806.900s  CONFIRM DEV: BAC.507.DEV507  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:20.60:  19806.900s  CONFIRM DEV: BAC.550.DEV550  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:20.85:  19806.900s  CONFIRM DEV: BAC.550.DEV550  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:20.85:  19806.900s  CONFIRM DEV: BAC.600.DEV600  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:20.89:  19806.900s  CONFIRM DEV: BAC.600.DEV600  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:20.89:  19806.900s  CONFIRM DEV: BAC.602.DEV602  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:20.91:  28.876s  ALARM LIST GET COUNT:  BAC.6   ServiceID: 7  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:20.91:  28.876s  ALARM LIST GET COUNT:  BAC.6   ServiceID: 7  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:21.20:  19806.900s  CONFIRM DEV: BAC.602.DEV602  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:21.20:  19806.900s  CONFIRM DEV: BAC.604.DEV604  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:21.40:  19806.900s  CONFIRM DEV: BAC.604.DEV604  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:21.40:  19806.900s  CONFIRM DEV: BAC.606.DEV606  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:21.79:  19806.900s  CONFIRM DEV: BAC.606.DEV606  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:21.79:  19806.900s  CONFIRM DEV: BAC.608.DEV608  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:21.99:  19806.900s  CONFIRM DEV: BAC.608.DEV608  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:21.99:  19806.900s  CONFIRM DEV: BAC.610.DEV610  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:22.19:  19806.900s  CONFIRM DEV: BAC.610.DEV610  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:22.19:  19806.900s  CONFIRM DEV: BAC.612.DEV612  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:22.43:  19806.900s  CONFIRM DEV: BAC.612.DEV612  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:22.43:  19806.900s  CONFIRM DEV: BAC.614.DEV614  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:22.83:  19806.900s  CONFIRM DEV: BAC.614.DEV614  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:22.83:  19806.900s  CONFIRM DEV: BAC.616.DEV616  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:23.03:  19806.900s  CONFIRM DEV: BAC.616.DEV616  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:23.03:  19806.900s  CONFIRM DEV: BAC.618.DEV618  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:23.44:  19806.900s  CONFIRM DEV: BAC.618.DEV618  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:23.44:  19806.900s  CONFIRM DEV: BAC.620.DEV620  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:23.68:  31.653s  GET:  BAC.505   ServiceID: 8  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:34:23.68:  31.653s  GET:  BAC.602   ServiceID: 8  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:34:23.69:  31.653s  GET:  BAC.604   ServiceID: 8  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:34:23.69:  31.653s  GET:  BAC.606   ServiceID: 8  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:34:23.77:  31.747s  GET:  BAC.505   ServiceID: 8  Request: 1  Queue: 34  Status: success
+08-Jul-2020, 13:34:23.77:  31.747s  GET:  BAC.608   ServiceID: 8  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:34:23.85:  31.825s  GET:  BAC.602   ServiceID: 8  Request: 2  Queue: 33  Status: success
+08-Jul-2020, 13:34:23.85:  31.825s  GET:  BAC.610   ServiceID: 8  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:34:23.88:  31.856s  GET:  BAC.604   ServiceID: 8  Request: 3  Queue: 32  Status: success
+08-Jul-2020, 13:34:23.88:  31.856s  GET:  BAC.612   ServiceID: 8  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:34:23.88:  31.856s  GET:  BAC.606   ServiceID: 8  Request: 4  Queue: 31  Status: success
+08-Jul-2020, 13:34:23.88:  31.856s  GET:  BAC.614   ServiceID: 8  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:34:23.93:  19806.900s  CONFIRM DEV: BAC.620.DEV620  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:23.93:  19806.900s  CONFIRM DEV: BAC.622.DEV622  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:24.12:  32.090s  GET:  BAC.608   ServiceID: 8  Request: 5  Queue: 30  Status: success
+08-Jul-2020, 13:34:24.12:  32.090s  GET:  BAC.616   ServiceID: 8  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:34:24.13:  32.105s  GET:  BAC.610   ServiceID: 8  Request: 6  Queue: 29  Status: success
+08-Jul-2020, 13:34:24.13:  32.105s  GET:  BAC.618   ServiceID: 8  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:34:24.14:  32.105s  GET:  BAC.612   ServiceID: 8  Request: 7  Queue: 28  Status: success
+08-Jul-2020, 13:34:24.14:  32.105s  GET:  BAC.620   ServiceID: 8  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:34:24.16:  32.121s  GET:  BAC.614   ServiceID: 8  Request: 8  Queue: 27  Status: success
+08-Jul-2020, 13:34:24.16:  32.121s  GET:  BAC.622   ServiceID: 8  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:34:24.36:  32.324s  GET:  BAC.616   ServiceID: 8  Request: 9  Queue: 26  Status: success
+08-Jul-2020, 13:34:24.36:  32.324s  GET:  BAC.624   ServiceID: 8  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:34:24.37:  32.339s  GET:  BAC.618   ServiceID: 8  Request: 10  Queue: 25  Status: success
+08-Jul-2020, 13:34:24.37:  32.339s  GET:  BAC.626   ServiceID: 8  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:34:24.38:  32.355s  GET:  BAC.620   ServiceID: 8  Request: 11  Queue: 24  Status: success
+08-Jul-2020, 13:34:24.38:  32.355s  GET:  BAC.628   ServiceID: 8  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:34:24.42:  19806.900s  CONFIRM DEV: BAC.622.DEV622  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:24.42:  19806.900s  CONFIRM DEV: BAC.630.DEV630  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:24.43:  32.402s  GET:  BAC.622   ServiceID: 8  Request: 12  Queue: 23  Status: success
+08-Jul-2020, 13:34:24.43:  32.402s  GET:  BAC.630   ServiceID: 8  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:34:24.73:  32.698s  GET:  BAC.624   ServiceID: 8  Request: 13  Queue: 22  Status: success
+08-Jul-2020, 13:34:24.73:  32.698s  GET:  BAC.632   ServiceID: 8  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:34:24.74:  32.714s  GET:  BAC.626   ServiceID: 8  Request: 14  Queue: 21  Status: success
+08-Jul-2020, 13:34:24.74:  32.714s  GET:  BAC.634   ServiceID: 8  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:34:24.75:  32.729s  GET:  BAC.628   ServiceID: 8  Request: 15  Queue: 20  Status: success
+08-Jul-2020, 13:34:24.75:  32.729s  GET:  BAC.701   ServiceID: 8  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:34:24.79:  19806.900s  CONFIRM DEV: BAC.630.DEV630  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:24.79:  19806.900s  CONFIRM DEV: BAC.700.DEV700  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:24.80:  32.761s  GET:  BAC.630   ServiceID: 8  Request: 16  Queue: 19  Status: success
+08-Jul-2020, 13:34:24.80:  32.761s  GET:  BAC.702   ServiceID: 8  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:34:24.81:  19806.900s  CONFIRM DEV: BAC.700.DEV700  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:24.81:  19806.900s  CONFIRM DEV: BAC.703.DEV703  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:25.10:  33.073s  GET:  BAC.632   ServiceID: 8  Request: 17  Queue: 18  Status: success
+08-Jul-2020, 13:34:25.10:  33.073s  GET:  BAC.703   ServiceID: 8  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:34:25.10:  33.073s  GET:  BAC.634   ServiceID: 8  Request: 18  Queue: 17  Status: success
+08-Jul-2020, 13:34:25.10:  33.073s  GET:  BAC.704   ServiceID: 8  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:34:25.16:  33.135s  GET:  BAC.701   ServiceID: 8  Request: 19  Queue: 16  Status: success
+08-Jul-2020, 13:34:25.16:  33.135s  GET:  BAC.705   ServiceID: 8  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:34:25.17:  33.135s  GET:  BAC.702   ServiceID: 8  Request: 20  Queue: 15  Status: success
+08-Jul-2020, 13:34:25.17:  33.135s  GET:  BAC.713   ServiceID: 8  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:34:25.20:  19806.900s  CONFIRM DEV: BAC.703.DEV703  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:25.20:  19806.900s  CONFIRM DEV: BAC.715.DEV715  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:25.21:  33.182s  GET:  BAC.703   ServiceID: 8  Request: 21  Queue: 14  Status: success
+08-Jul-2020, 13:34:25.21:  33.182s  GET:  BAC.715   ServiceID: 8  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:34:25.42:  33.385s  GET:  BAC.704   ServiceID: 8  Request: 22  Queue: 13  Status: success
+08-Jul-2020, 13:34:25.42:  33.385s  GET:  BAC.717   ServiceID: 8  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:34:25.65:  33.619s  GET:  BAC.705   ServiceID: 8  Request: 23  Queue: 12  Status: success
+08-Jul-2020, 13:34:25.65:  33.619s  GET:  BAC.719   ServiceID: 8  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:34:25.66:  33.619s  GET:  BAC.713   ServiceID: 8  Request: 24  Queue: 11  Status: success
+08-Jul-2020, 13:34:25.66:  33.619s  GET:  BAC.721   ServiceID: 8  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:34:25.69:  19806.900s  CONFIRM DEV: BAC.715.DEV715  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:25.69:  19806.900s  CONFIRM DEV: BAC.723.DEV723  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:25.71:  33.681s  GET:  BAC.715   ServiceID: 8  Request: 25  Queue: 10  Status: success
+08-Jul-2020, 13:34:25.71:  33.681s  GET:  BAC.723   ServiceID: 8  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:34:25.82:  33.790s  GET:  BAC.717   ServiceID: 8  Request: 26  Queue: 9  Status: success
+08-Jul-2020, 13:34:25.82:  33.790s  GET:  BAC.725   ServiceID: 8  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:34:26.26:  34.227s  GET:  BAC.719   ServiceID: 8  Request: 27  Queue: 8  Status: success
+08-Jul-2020, 13:34:26.26:  34.227s  GET:  BAC.727   ServiceID: 8  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:34:26.26:  34.227s  GET:  BAC.721   ServiceID: 8  Request: 28  Queue: 7  Status: success
+08-Jul-2020, 13:34:26.26:  34.227s  GET:  BAC.729   ServiceID: 8  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:34:26.26:  19806.900s  CONFIRM DEV: BAC.723.DEV723  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:26.26:  19806.900s  CONFIRM DEV: BAC.731.DEV731  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:26.27:  34.243s  GET:  BAC.723   ServiceID: 8  Request: 29  Queue: 6  Status: success
+08-Jul-2020, 13:34:26.27:  34.243s  GET:  BAC.731   ServiceID: 8  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:34:26.39:  34.352s  GET:  BAC.725   ServiceID: 8  Request: 30  Queue: 5  Status: success
+08-Jul-2020, 13:34:26.39:  34.352s  GET:  BAC.733   ServiceID: 8  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:34:26.57:  34.539s  GET:  BAC.727   ServiceID: 8  Request: 31  Queue: 4  Status: success
+08-Jul-2020, 13:34:26.57:  34.539s  GET:  BAC.735   ServiceID: 8  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:34:26.59:  34.555s  GET:  BAC.729   ServiceID: 8  Request: 32  Queue: 3  Status: success
+08-Jul-2020, 13:34:26.59:  34.555s  GET:  BAC.9996   ServiceID: 8  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:34:26.62:  19806.900s  CONFIRM DEV: BAC.731.DEV731  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:26.62:  19806.900s  CONFIRM DEV: BAC.764.DEV764  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:26.64:  34.617s  GET:  BAC.731   ServiceID: 8  Request: 33  Queue: 2  Status: success
+08-Jul-2020, 13:34:26.64:  34.617s  GET:  BAC.9998   ServiceID: 8  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:34:26.75:  34.726s  GET:  BAC.733   ServiceID: 8  Request: 34  Queue: 1  Status: success
+08-Jul-2020, 13:34:26.75:  34.726s  GET:  BAC.9999   ServiceID: 8  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:26.89:  34.867s  GET:  BAC.735   ServiceID: 8  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:34:26.92:  19806.900s  CONFIRM DEV: BAC.764.DEV764  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:26.92:  19806.900s  CONFIRM DEV: BAC.1615.DEV1615  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:27.07:  35.038s  GET:  BAC.9996   ServiceID: 8  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:27.37:  35.350s  GET:  BAC.9998   ServiceID: 8  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:34:27.42:  35.397s  GET:  BAC.9999   ServiceID: 8  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:27.46:  35.428s  GET:  BAC.9999   ServiceID: 9  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:27.47:  19806.900s  CONFIRM DEV: BAC.1615.DEV1615  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:27.47:  19806.900s  CONFIRM DEV: BAC.9600.DEV9600  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:27.49:  19806.900s  CONFIRM DEV: BAC.9600.DEV9600  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:27.49:  19806.900s  CONFIRM DEV: BAC.9601.DEV9601  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:27.49:  35.459s  GET:  BAC.9999   ServiceID: 9  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:27.51:  35.475s  GET:  BAC.9999   ServiceID: 10  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:27.68:  35.647s  GET:  BAC.9999   ServiceID: 10  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:27.77:  19806.900s  CONFIRM DEV: BAC.9601.DEV9601  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:27.77:  19806.900s  CONFIRM DEV: BAC.9602.DEV9602  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:28.15:  19806.900s  CONFIRM DEV: BAC.9602.DEV9602  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:28.15:  19806.900s  CONFIRM DEV: BAC.9603.DEV9603  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:28.51:  19806.900s  CONFIRM DEV: BAC.9603.DEV9603  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:28.51:  19806.900s  CONFIRM DEV: BAC.9604.DEV9604  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:28.90:  19806.900s  CONFIRM DEV: BAC.9604.DEV9604  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:28.90:  19806.900s  CONFIRM DEV: BAC.9605.DEV9605  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:29.39:  19806.900s  CONFIRM DEV: BAC.9605.DEV9605  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:29.39:  19806.900s  CONFIRM DEV: BAC.9606.DEV9606  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:33.11:  41.076s  GET:  BAC.505   ServiceID: 11  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:34:33.11:  41.076s  GET:  BAC.602   ServiceID: 11  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:34:33.11:  41.076s  GET:  BAC.604   ServiceID: 11  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:34:33.11:  41.076s  GET:  BAC.606   ServiceID: 11  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:34:33.19:  41.169s  GET:  BAC.505   ServiceID: 11  Request: 1  Queue: 34  Status: success
+08-Jul-2020, 13:34:33.19:  41.169s  GET:  BAC.608   ServiceID: 11  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:34:33.27:  41.232s  GET:  BAC.602   ServiceID: 11  Request: 2  Queue: 33  Status: success
+08-Jul-2020, 13:34:33.27:  41.232s  GET:  BAC.610   ServiceID: 11  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:34:33.27:  41.247s  GET:  BAC.604   ServiceID: 11  Request: 3  Queue: 32  Status: success
+08-Jul-2020, 13:34:33.27:  41.247s  GET:  BAC.612   ServiceID: 11  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:34:33.29:  41.263s  GET:  BAC.606   ServiceID: 11  Request: 4  Queue: 31  Status: success
+08-Jul-2020, 13:34:33.29:  41.263s  GET:  BAC.614   ServiceID: 11  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:34:33.29:  41.263s  GET:  BAC.608   ServiceID: 11  Request: 5  Queue: 30  Status: success
+08-Jul-2020, 13:34:33.29:  41.263s  GET:  BAC.616   ServiceID: 11  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:34:33.47:  41.434s  GET:  BAC.610   ServiceID: 11  Request: 6  Queue: 29  Status: success
+08-Jul-2020, 13:34:33.47:  41.434s  GET:  BAC.618   ServiceID: 11  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:34:33.52:  41.481s  GET:  BAC.612   ServiceID: 11  Request: 7  Queue: 28  Status: success
+08-Jul-2020, 13:34:33.52:  41.481s  GET:  BAC.620   ServiceID: 11  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:34:33.60:  41.575s  GET:  BAC.614   ServiceID: 11  Request: 8  Queue: 27  Status: success
+08-Jul-2020, 13:34:33.60:  41.575s  GET:  BAC.622   ServiceID: 11  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:34:33.60:  41.575s  GET:  BAC.616   ServiceID: 11  Request: 9  Queue: 26  Status: success
+08-Jul-2020, 13:34:33.60:  41.575s  GET:  BAC.624   ServiceID: 11  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:34:33.74:  41.715s  GET:  BAC.618   ServiceID: 11  Request: 10  Queue: 25  Status: success
+08-Jul-2020, 13:34:33.74:  41.715s  GET:  BAC.626   ServiceID: 11  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:34:33.75:  41.731s  GET:  BAC.620   ServiceID: 11  Request: 11  Queue: 24  Status: success
+08-Jul-2020, 13:34:33.75:  41.731s  GET:  BAC.628   ServiceID: 11  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:34:33.76:  41.731s  GET:  BAC.622   ServiceID: 11  Request: 12  Queue: 23  Status: success
+08-Jul-2020, 13:34:33.76:  41.731s  GET:  BAC.630   ServiceID: 11  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:34:33.78:  41.746s  GET:  BAC.624   ServiceID: 11  Request: 13  Queue: 22  Status: success
+08-Jul-2020, 13:34:33.78:  41.746s  GET:  BAC.632   ServiceID: 11  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:34:33.99:  41.949s  GET:  BAC.626   ServiceID: 11  Request: 14  Queue: 21  Status: success
+08-Jul-2020, 13:34:33.99:  41.949s  GET:  BAC.634   ServiceID: 11  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:34:34.01:  41.980s  GET:  BAC.628   ServiceID: 11  Request: 15  Queue: 20  Status: success
+08-Jul-2020, 13:34:34.01:  41.980s  GET:  BAC.701   ServiceID: 11  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:34:34.03:  41.996s  GET:  BAC.630   ServiceID: 11  Request: 16  Queue: 19  Status: success
+08-Jul-2020, 13:34:34.03:  41.996s  GET:  BAC.702   ServiceID: 11  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:34:34.04:  42.012s  GET:  BAC.632   ServiceID: 11  Request: 17  Queue: 18  Status: success
+08-Jul-2020, 13:34:34.04:  42.012s  GET:  BAC.703   ServiceID: 11  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:34:34.14:  42.105s  GET:  BAC.701   ServiceID: 11  Request: 19  Queue: 17  Status: success
+08-Jul-2020, 13:34:34.14:  42.105s  GET:  BAC.704   ServiceID: 11  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:34:34.14:  42.121s  GET:  BAC.702   ServiceID: 11  Request: 20  Queue: 16  Status: success
+08-Jul-2020, 13:34:34.14:  42.121s  GET:  BAC.705   ServiceID: 11  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:34:34.16:  42.121s  GET:  BAC.703   ServiceID: 11  Request: 21  Queue: 15  Status: success
+08-Jul-2020, 13:34:34.16:  42.121s  GET:  BAC.713   ServiceID: 11  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:34:34.33:  42.292s  GET:  BAC.634   ServiceID: 11  Request: 18  Queue: 14  Status: success
+08-Jul-2020, 13:34:34.33:  42.292s  GET:  BAC.715   ServiceID: 11  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:34:34.41:  42.370s  GET:  BAC.704   ServiceID: 11  Request: 22  Queue: 13  Status: success
+08-Jul-2020, 13:34:34.41:  42.370s  GET:  BAC.717   ServiceID: 11  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:34:34.42:  42.386s  GET:  BAC.705   ServiceID: 11  Request: 23  Queue: 12  Status: success
+08-Jul-2020, 13:34:34.42:  42.386s  GET:  BAC.719   ServiceID: 11  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:34:34.42:  42.386s  GET:  BAC.713   ServiceID: 11  Request: 24  Queue: 11  Status: success
+08-Jul-2020, 13:34:34.42:  42.386s  GET:  BAC.721   ServiceID: 11  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:34:34.44:  42.402s  GET:  BAC.715   ServiceID: 11  Request: 25  Queue: 10  Status: success
+08-Jul-2020, 13:34:34.44:  42.402s  GET:  BAC.723   ServiceID: 11  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:34:34.61:  42.589s  GET:  BAC.719   ServiceID: 11  Request: 27  Queue: 9  Status: success
+08-Jul-2020, 13:34:34.61:  42.589s  GET:  BAC.725   ServiceID: 11  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:34:34.63:  42.589s  GET:  BAC.721   ServiceID: 11  Request: 28  Queue: 8  Status: success
+08-Jul-2020, 13:34:34.63:  42.589s  GET:  BAC.727   ServiceID: 11  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:34:34.64:  42.604s  GET:  BAC.717   ServiceID: 11  Request: 26  Queue: 7  Status: success
+08-Jul-2020, 13:34:34.64:  42.604s  GET:  BAC.729   ServiceID: 11  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:34:34.64:  42.604s  GET:  BAC.723   ServiceID: 11  Request: 29  Queue: 6  Status: success
+08-Jul-2020, 13:34:34.64:  42.604s  GET:  BAC.731   ServiceID: 11  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:34:34.79:  42.760s  GET:  BAC.725   ServiceID: 11  Request: 30  Queue: 5  Status: success
+08-Jul-2020, 13:34:34.79:  42.760s  GET:  BAC.733   ServiceID: 11  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:34:34.81:  42.776s  GET:  BAC.727   ServiceID: 11  Request: 31  Queue: 4  Status: success
+08-Jul-2020, 13:34:34.81:  42.776s  GET:  BAC.735   ServiceID: 11  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:34:34.83:  42.792s  GET:  BAC.729   ServiceID: 11  Request: 32  Queue: 3  Status: success
+08-Jul-2020, 13:34:34.83:  42.792s  GET:  BAC.9996   ServiceID: 11  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:34:34.83:  42.792s  GET:  BAC.731   ServiceID: 11  Request: 33  Queue: 2  Status: success
+08-Jul-2020, 13:34:34.83:  42.792s  GET:  BAC.9998   ServiceID: 11  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:34:34.95:  42.916s  GET:  BAC.733   ServiceID: 11  Request: 34  Queue: 1  Status: success
+08-Jul-2020, 13:34:34.95:  42.916s  GET:  BAC.9999   ServiceID: 11  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:34.96:  42.932s  GET:  BAC.735   ServiceID: 11  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:34:35.16:  43.119s  GET:  BAC.9996   ServiceID: 11  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:35.17:  43.135s  GET:  BAC.9998   ServiceID: 11  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:34:35.22:  43.182s  GET:  BAC.9999   ServiceID: 11  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:35.56:  43.525s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 12  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:35.56:  43.525s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 12  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:35.71:  43.681s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 13  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:35.71:  43.681s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 13  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:35.72:  19806.900s  CONFIRM DEV: BAC.9606.DEV9606  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:35.72:  19806.900s  CONFIRM DEV: BAC.9607.DEV9607  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:36.05:  19806.900s  CONFIRM DEV: BAC.9607.DEV9607  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:36.05:  19806.900s  CONFIRM DEV: BAC.9608.DEV9608  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:36.37:  44.336s  ALARM LIST GET COUNT:  BAC.6   ServiceID: 14  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:36.37:  44.336s  ALARM LIST GET COUNT:  BAC.6   ServiceID: 14  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:36.41:  19806.900s  CONFIRM DEV: BAC.9608.DEV9608  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:36.41:  19806.900s  CONFIRM DEV: BAC.9609.DEV9609  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:36.69:  19806.900s  CONFIRM DEV: BAC.9609.DEV9609  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:36.69:  19806.900s  CONFIRM DEV: BAC.9610.DEV9610  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:37.01:  19806.900s  CONFIRM DEV: BAC.9610.DEV9610  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:37.01:  19806.900s  CONFIRM DEV: BAC.9611.DEV9611  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:37.42:  19806.900s  CONFIRM DEV: BAC.9611.DEV9611  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:37.42:  19806.900s  CONFIRM DEV: BAC.9612.DEV9612  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:37.79:  19806.900s  CONFIRM DEV: BAC.9612.DEV9612  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:37.79:  19806.900s  CONFIRM DEV: BAC.9613.DEV9613  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:38.09:  46.052s  GET:  BAC.9999   ServiceID: 15  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:38.11:  19806.900s  CONFIRM DEV: BAC.9613.DEV9613  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:38.11:  19806.900s  CONFIRM DEV: BAC.9614.DEV9614  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:38.18:  46.146s  GET:  BAC.9999   ServiceID: 15  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:38.23:  46.208s  GET:  BAC.505   ServiceID: 16  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:34:38.23:  46.208s  GET:  BAC.602   ServiceID: 16  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:34:38.23:  46.208s  GET:  BAC.604   ServiceID: 16  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:34:38.23:  46.208s  GET:  BAC.606   ServiceID: 16  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:34:38.31:  46.286s  GET:  BAC.505   ServiceID: 16  Request: 1  Queue: 34  Status: success
+08-Jul-2020, 13:34:38.31:  46.286s  GET:  BAC.608   ServiceID: 16  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:34:38.48:  46.442s  GET:  BAC.602   ServiceID: 16  Request: 2  Queue: 33  Status: success
+08-Jul-2020, 13:34:38.48:  46.442s  GET:  BAC.610   ServiceID: 16  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:34:38.48:  46.458s  GET:  BAC.604   ServiceID: 16  Request: 3  Queue: 32  Status: success
+08-Jul-2020, 13:34:38.48:  46.458s  GET:  BAC.612   ServiceID: 16  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:34:38.48:  46.458s  GET:  BAC.606   ServiceID: 16  Request: 4  Queue: 31  Status: success
+08-Jul-2020, 13:34:38.48:  46.458s  GET:  BAC.614   ServiceID: 16  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:34:38.50:  19806.900s  CONFIRM DEV: BAC.9614.DEV9614  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:38.53:  19806.900s  CONFIRM DEV: BAC.9615.DEV9615  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:38.72:  46.692s  GET:  BAC.608   ServiceID: 16  Request: 5  Queue: 30  Status: success
+08-Jul-2020, 13:34:38.72:  46.692s  GET:  BAC.616   ServiceID: 16  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:34:38.73:  46.692s  GET:  BAC.610   ServiceID: 16  Request: 6  Queue: 29  Status: success
+08-Jul-2020, 13:34:38.73:  46.692s  GET:  BAC.618   ServiceID: 16  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:34:38.76:  46.723s  GET:  BAC.612   ServiceID: 16  Request: 7  Queue: 28  Status: success
+08-Jul-2020, 13:34:38.76:  46.723s  GET:  BAC.620   ServiceID: 16  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:34:38.76:  46.723s  GET:  BAC.614   ServiceID: 16  Request: 8  Queue: 27  Status: success
+08-Jul-2020, 13:34:38.76:  46.723s  GET:  BAC.622   ServiceID: 16  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:34:38.87:  19806.900s  CONFIRM DEV: BAC.9615.DEV9615  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:38.87:  19806.900s  CONFIRM DEV: BAC.9621.DEV9621  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:39.01:  46.972s  GET:  BAC.616   ServiceID: 16  Request: 9  Queue: 27  Status: success
+08-Jul-2020, 13:34:39.01:  46.972s  GET:  BAC.624   ServiceID: 16  Request: 13  Queue: 26  Status: in progress
+08-Jul-2020, 13:34:39.03:  47.004s  GET:  BAC.618   ServiceID: 16  Request: 10  Queue: 26  Status: success
+08-Jul-2020, 13:34:39.03:  47.004s  GET:  BAC.626   ServiceID: 16  Request: 14  Queue: 25  Status: in progress
+08-Jul-2020, 13:34:39.05:  47.019s  GET:  BAC.620   ServiceID: 16  Request: 11  Queue: 25  Status: success
+08-Jul-2020, 13:34:39.05:  47.019s  GET:  BAC.628   ServiceID: 16  Request: 15  Queue: 24  Status: in progress
+08-Jul-2020, 13:34:39.25:  19806.900s  CONFIRM DEV: BAC.9621.DEV9621  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:39.25:  19806.900s  CONFIRM DEV: BAC.9622.DEV9622  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:39.26:  47.222s  GET:  BAC.622   ServiceID: 16  Request: 12  Queue: 24  Status: success
+08-Jul-2020, 13:34:39.26:  47.222s  GET:  BAC.630   ServiceID: 16  Request: 16  Queue: 23  Status: in progress
+08-Jul-2020, 13:34:39.27:  47.238s  GET:  BAC.624   ServiceID: 16  Request: 13  Queue: 23  Status: success
+08-Jul-2020, 13:34:39.27:  47.238s  GET:  BAC.632   ServiceID: 16  Request: 17  Queue: 22  Status: in progress
+08-Jul-2020, 13:34:39.28:  47.253s  GET:  BAC.626   ServiceID: 16  Request: 14  Queue: 22  Status: success
+08-Jul-2020, 13:34:39.28:  47.253s  GET:  BAC.634   ServiceID: 16  Request: 18  Queue: 21  Status: in progress
+08-Jul-2020, 13:34:39.51:  47.487s  GET:  BAC.628   ServiceID: 16  Request: 15  Queue: 21  Status: success
+08-Jul-2020, 13:34:39.51:  47.487s  GET:  BAC.701   ServiceID: 16  Request: 19  Queue: 20  Status: in progress
+08-Jul-2020, 13:34:39.53:  47.503s  GET:  BAC.630   ServiceID: 16  Request: 16  Queue: 20  Status: success
+08-Jul-2020, 13:34:39.53:  47.503s  GET:  BAC.702   ServiceID: 16  Request: 20  Queue: 19  Status: in progress
+08-Jul-2020, 13:34:39.55:  47.518s  GET:  BAC.632   ServiceID: 16  Request: 17  Queue: 19  Status: success
+08-Jul-2020, 13:34:39.55:  47.518s  GET:  BAC.703   ServiceID: 16  Request: 21  Queue: 18  Status: in progress
+08-Jul-2020, 13:34:39.63:  47.596s  GET:  BAC.701   ServiceID: 16  Request: 19  Queue: 18  Status: success
+08-Jul-2020, 13:34:39.63:  47.596s  GET:  BAC.704   ServiceID: 16  Request: 22  Queue: 17  Status: in progress
+08-Jul-2020, 13:34:39.63:  19806.900s  CONFIRM DEV: BAC.9622.DEV9622  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:39.63:  19806.900s  CONFIRM DEV: BAC.9623.DEV9623  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:39.65:  47.612s  GET:  BAC.702   ServiceID: 16  Request: 20  Queue: 17  Status: success
+08-Jul-2020, 13:34:39.65:  47.612s  GET:  BAC.705   ServiceID: 16  Request: 23  Queue: 16  Status: in progress
+08-Jul-2020, 13:34:39.67:  47.643s  GET:  BAC.703   ServiceID: 16  Request: 21  Queue: 16  Status: success
+08-Jul-2020, 13:34:39.67:  47.643s  GET:  BAC.713   ServiceID: 16  Request: 24  Queue: 15  Status: in progress
+08-Jul-2020, 13:34:39.70:  47.674s  GET:  BAC.634   ServiceID: 16  Request: 18  Queue: 15  Status: success
+08-Jul-2020, 13:34:39.70:  47.674s  GET:  BAC.715   ServiceID: 16  Request: 25  Queue: 14  Status: in progress
+08-Jul-2020, 13:34:39.91:  47.877s  GET:  BAC.704   ServiceID: 16  Request: 22  Queue: 14  Status: success
+08-Jul-2020, 13:34:39.91:  47.877s  GET:  BAC.717   ServiceID: 16  Request: 26  Queue: 13  Status: in progress
+08-Jul-2020, 13:34:39.92:  47.893s  GET:  BAC.705   ServiceID: 16  Request: 23  Queue: 13  Status: success
+08-Jul-2020, 13:34:39.92:  47.893s  GET:  BAC.719   ServiceID: 16  Request: 27  Queue: 12  Status: in progress
+08-Jul-2020, 13:34:39.94:  47.908s  GET:  BAC.713   ServiceID: 16  Request: 24  Queue: 12  Status: success
+08-Jul-2020, 13:34:39.94:  47.908s  GET:  BAC.721   ServiceID: 16  Request: 28  Queue: 11  Status: in progress
+08-Jul-2020, 13:34:39.98:  19806.900s  CONFIRM DEV: BAC.9623.DEV9623  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:39.98:  19806.900s  CONFIRM DEV: BAC.9624.DEV9624  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:40.17:  48.142s  GET:  BAC.715   ServiceID: 16  Request: 25  Queue: 11  Status: success
+08-Jul-2020, 13:34:40.17:  48.142s  GET:  BAC.723   ServiceID: 16  Request: 29  Queue: 10  Status: in progress
+08-Jul-2020, 13:34:40.18:  48.158s  GET:  BAC.717   ServiceID: 16  Request: 26  Queue: 10  Status: success
+08-Jul-2020, 13:34:40.18:  48.158s  GET:  BAC.725   ServiceID: 16  Request: 30  Queue: 9  Status: in progress
+08-Jul-2020, 13:34:40.20:  48.174s  GET:  BAC.719   ServiceID: 16  Request: 27  Queue: 9  Status: success
+08-Jul-2020, 13:34:40.20:  48.174s  GET:  BAC.727   ServiceID: 16  Request: 31  Queue: 8  Status: in progress
+08-Jul-2020, 13:34:40.22:  48.189s  GET:  BAC.721   ServiceID: 16  Request: 28  Queue: 8  Status: success
+08-Jul-2020, 13:34:40.22:  48.189s  GET:  BAC.729   ServiceID: 16  Request: 32  Queue: 7  Status: in progress
+08-Jul-2020, 13:34:40.32:  19806.900s  CONFIRM DEV: BAC.9624.DEV9624  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:40.32:  19806.900s  CONFIRM DEV: BAC.9625.DEV9625  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:40.42:  48.392s  GET:  BAC.723   ServiceID: 16  Request: 29  Queue: 7  Status: success
+08-Jul-2020, 13:34:40.42:  48.392s  GET:  BAC.731   ServiceID: 16  Request: 33  Queue: 6  Status: in progress
+08-Jul-2020, 13:34:40.44:  48.408s  GET:  BAC.725   ServiceID: 16  Request: 30  Queue: 6  Status: success
+08-Jul-2020, 13:34:40.44:  48.408s  GET:  BAC.733   ServiceID: 16  Request: 34  Queue: 5  Status: in progress
+08-Jul-2020, 13:34:40.45:  48.423s  GET:  BAC.727   ServiceID: 16  Request: 31  Queue: 5  Status: success
+08-Jul-2020, 13:34:40.46:  48.423s  GET:  BAC.735   ServiceID: 16  Request: 35  Queue: 4  Status: in progress
+08-Jul-2020, 13:34:40.67:  19806.900s  CONFIRM DEV: BAC.9625.DEV9625  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:40.67:  19806.900s  CONFIRM DEV: BAC.9626.DEV9626  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:40.70:  48.673s  GET:  BAC.729   ServiceID: 16  Request: 32  Queue: 4  Status: success
+08-Jul-2020, 13:34:40.70:  48.673s  GET:  BAC.9996   ServiceID: 16  Request: 36  Queue: 3  Status: in progress
+08-Jul-2020, 13:34:40.76:  48.720s  GET:  BAC.733   ServiceID: 16  Request: 34  Queue: 3  Status: success
+08-Jul-2020, 13:34:40.76:  48.720s  GET:  BAC.9998   ServiceID: 16  Request: 37  Queue: 2  Status: in progress
+08-Jul-2020, 13:34:40.76:  48.720s  GET:  BAC.731   ServiceID: 16  Request: 33  Queue: 2  Status: success
+08-Jul-2020, 13:34:40.76:  48.720s  GET:  BAC.9999   ServiceID: 16  Request: 38  Queue: 1  Status: in progress
+08-Jul-2020, 13:34:41.01:  19806.900s  CONFIRM DEV: BAC.9626.DEV9626  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:41.01:  19806.900s  CONFIRM DEV: BAC.9627.DEV9627  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:41.05:  49.016s  GET:  BAC.9996   ServiceID: 16  Request: 36  Queue: 1  Status: ** partial failure
+08-Jul-2020, 13:34:41.05:  49.016s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 17  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:41.05:  49.016s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 17  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:41.08:  49.047s  GET:  BAC.9998   ServiceID: 16  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:34:41.09:  49.063s  GET:  BAC.735   ServiceID: 16  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:34:41.10:  49.063s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 18  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:41.10:  49.063s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 18  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:41.17:  49.141s  GET:  BAC.9999   ServiceID: 16  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:41.18:  49.141s  GET:  BAC.9999   ServiceID: 19  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:41.18:  49.141s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 20  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:41.18:  49.141s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 20  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:41.19:  49.156s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 21  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:41.19:  49.156s  GET ALARM RESTRICTIONS:  BAC.6   ServiceID: 21  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:41.36:  19806.900s  CONFIRM DEV: BAC.9627.DEV9627  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:41.36:  19806.900s  CONFIRM DEV: BAC.9628.DEV9628  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:41.71:  19806.900s  CONFIRM DEV: BAC.9628.DEV9628  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:41.71:  19806.900s  CONFIRM DEV: BAC.9629.DEV9629  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:42.06:  19806.900s  CONFIRM DEV: BAC.9629.DEV9629  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:42.06:  19806.900s  CONFIRM DEV: BAC.9630.DEV9630  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:42.41:  19806.900s  CONFIRM DEV: BAC.9630.DEV9630  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:42.41:  19806.900s  CONFIRM DEV: BAC.9631.DEV9631  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:42.77:  19806.900s  CONFIRM DEV: BAC.9631.DEV9631  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:42.77:  19806.900s  CONFIRM DEV: BAC.9632.DEV9632  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:42.82:  50.794s  GET:  BAC.9999   ServiceID: 19  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:43.13:  19806.900s  CONFIRM DEV: BAC.9632.DEV9632  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:43.13:  19806.900s  CONFIRM DEV: BAC.9633.DEV9633  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:43.14:  51.106s  GET:  BAC.505   ServiceID: 22  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:34:43.14:  51.106s  GET:  BAC.602   ServiceID: 22  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:34:43.16:  51.122s  GET:  BAC.604   ServiceID: 22  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:34:43.16:  51.122s  GET:  BAC.606   ServiceID: 22  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:34:43.26:  51.231s  GET:  BAC.505   ServiceID: 22  Request: 1  Queue: 35  Status: success
+08-Jul-2020, 13:34:43.26:  51.231s  GET:  BAC.608   ServiceID: 22  Request: 5  Queue: 34  Status: in progress
+08-Jul-2020, 13:34:43.27:  51.231s  GET:  BAC.602   ServiceID: 22  Request: 2  Queue: 34  Status: success
+08-Jul-2020, 13:34:43.27:  51.231s  GET:  BAC.610   ServiceID: 22  Request: 6  Queue: 33  Status: in progress
+08-Jul-2020, 13:34:43.28:  51.247s  GET:  BAC.604   ServiceID: 22  Request: 3  Queue: 33  Status: success
+08-Jul-2020, 13:34:43.28:  51.247s  GET:  BAC.612   ServiceID: 22  Request: 7  Queue: 32  Status: in progress
+08-Jul-2020, 13:34:43.29:  51.262s  GET:  BAC.606   ServiceID: 22  Request: 4  Queue: 32  Status: success
+08-Jul-2020, 13:34:43.29:  51.262s  GET:  BAC.614   ServiceID: 22  Request: 8  Queue: 31  Status: in progress
+08-Jul-2020, 13:34:43.49:  19806.900s  CONFIRM DEV: BAC.9633.DEV9633  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:43.49:  19806.900s  CONFIRM DEV: BAC.9634.DEV9634  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:43.72:  51.699s  GET:  BAC.608   ServiceID: 22  Request: 5  Queue: 31  Status: success
+08-Jul-2020, 13:34:43.72:  51.699s  GET:  BAC.616   ServiceID: 22  Request: 9  Queue: 30  Status: in progress
+08-Jul-2020, 13:34:43.75:  51.730s  GET:  BAC.610   ServiceID: 22  Request: 6  Queue: 30  Status: success
+08-Jul-2020, 13:34:43.75:  51.730s  GET:  BAC.618   ServiceID: 22  Request: 10  Queue: 29  Status: in progress
+08-Jul-2020, 13:34:43.76:  51.730s  GET:  BAC.612   ServiceID: 22  Request: 7  Queue: 29  Status: success
+08-Jul-2020, 13:34:43.76:  51.730s  GET:  BAC.620   ServiceID: 22  Request: 11  Queue: 28  Status: in progress
+08-Jul-2020, 13:34:43.76:  51.730s  GET:  BAC.614   ServiceID: 22  Request: 8  Queue: 28  Status: success
+08-Jul-2020, 13:34:43.76:  51.730s  GET:  BAC.622   ServiceID: 22  Request: 12  Queue: 27  Status: in progress
+08-Jul-2020, 13:34:43.85:  19806.900s  CONFIRM DEV: BAC.9634.DEV9634  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:43.85:  19806.900s  CONFIRM DEV: BAC.9635.DEV9635  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:43.90:  51.871s  GET:  BAC.616   ServiceID: 22  Request: 9  Queue: 27  Status: success
+08-Jul-2020, 13:34:43.90:  51.871s  GET:  BAC.624   ServiceID: 22  Request: 13  Queue: 26  Status: in progress
+08-Jul-2020, 13:34:43.92:  51.886s  GET:  BAC.618   ServiceID: 22  Request: 10  Queue: 26  Status: success
+08-Jul-2020, 13:34:43.92:  51.886s  GET:  BAC.626   ServiceID: 22  Request: 14  Queue: 25  Status: in progress
+08-Jul-2020, 13:34:43.92:  51.886s  GET:  BAC.620   ServiceID: 22  Request: 11  Queue: 25  Status: success
+08-Jul-2020, 13:34:43.92:  51.886s  GET:  BAC.628   ServiceID: 22  Request: 15  Queue: 24  Status: in progress
+08-Jul-2020, 13:34:43.94:  51.902s  GET:  BAC.622   ServiceID: 22  Request: 12  Queue: 24  Status: success
+08-Jul-2020, 13:34:43.94:  51.902s  GET:  BAC.630   ServiceID: 22  Request: 16  Queue: 23  Status: in progress
+08-Jul-2020, 13:34:44.10:  52.074s  GET:  BAC.624   ServiceID: 22  Request: 13  Queue: 23  Status: success
+08-Jul-2020, 13:34:44.10:  52.074s  GET:  BAC.632   ServiceID: 22  Request: 17  Queue: 22  Status: in progress
+08-Jul-2020, 13:34:44.11:  52.089s  GET:  BAC.626   ServiceID: 22  Request: 14  Queue: 22  Status: success
+08-Jul-2020, 13:34:44.11:  52.089s  GET:  BAC.634   ServiceID: 22  Request: 18  Queue: 21  Status: in progress
+08-Jul-2020, 13:34:44.12:  52.089s  GET:  BAC.628   ServiceID: 22  Request: 15  Queue: 21  Status: success
+08-Jul-2020, 13:34:44.12:  52.089s  GET:  BAC.701   ServiceID: 22  Request: 19  Queue: 20  Status: in progress
+08-Jul-2020, 13:34:44.13:  52.105s  GET:  BAC.630   ServiceID: 22  Request: 16  Queue: 20  Status: success
+08-Jul-2020, 13:34:44.13:  52.105s  GET:  BAC.702   ServiceID: 22  Request: 20  Queue: 19  Status: in progress
+08-Jul-2020, 13:34:44.19:  19806.900s  CONFIRM DEV: BAC.9635.DEV9635  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:44.20:  19806.900s  CONFIRM DEV: BAC.9636.DEV9636  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:44.21:  52.183s  GET:  BAC.701   ServiceID: 22  Request: 19  Queue: 19  Status: success
+08-Jul-2020, 13:34:44.21:  52.183s  GET:  BAC.703   ServiceID: 22  Request: 21  Queue: 18  Status: in progress
+08-Jul-2020, 13:34:44.22:  52.183s  GET:  BAC.702   ServiceID: 22  Request: 20  Queue: 18  Status: success
+08-Jul-2020, 13:34:44.22:  52.183s  GET:  BAC.704   ServiceID: 22  Request: 22  Queue: 17  Status: in progress
+08-Jul-2020, 13:34:44.25:  52.214s  GET:  BAC.632   ServiceID: 22  Request: 17  Queue: 17  Status: success
+08-Jul-2020, 13:34:44.25:  52.214s  GET:  BAC.705   ServiceID: 22  Request: 23  Queue: 16  Status: in progress
+08-Jul-2020, 13:34:44.26:  52.230s  GET:  BAC.634   ServiceID: 22  Request: 18  Queue: 16  Status: success
+08-Jul-2020, 13:34:44.26:  52.230s  GET:  BAC.713   ServiceID: 22  Request: 24  Queue: 15  Status: in progress
+08-Jul-2020, 13:34:44.45:  52.417s  GET:  BAC.703   ServiceID: 22  Request: 21  Queue: 15  Status: success
+08-Jul-2020, 13:34:44.45:  52.417s  GET:  BAC.715   ServiceID: 22  Request: 25  Queue: 14  Status: in progress
+08-Jul-2020, 13:34:44.46:  52.432s  GET:  BAC.704   ServiceID: 22  Request: 22  Queue: 14  Status: success
+08-Jul-2020, 13:34:44.46:  52.432s  GET:  BAC.717   ServiceID: 22  Request: 26  Queue: 13  Status: in progress
+08-Jul-2020, 13:34:44.47:  52.432s  GET:  BAC.705   ServiceID: 22  Request: 23  Queue: 13  Status: success
+08-Jul-2020, 13:34:44.47:  52.432s  GET:  BAC.719   ServiceID: 22  Request: 27  Queue: 12  Status: in progress
+08-Jul-2020, 13:34:44.48:  52.448s  GET:  BAC.713   ServiceID: 22  Request: 24  Queue: 12  Status: success
+08-Jul-2020, 13:34:44.48:  52.448s  GET:  BAC.721   ServiceID: 22  Request: 28  Queue: 11  Status: in progress
+08-Jul-2020, 13:34:44.54:  19806.900s  CONFIRM DEV: BAC.9636.DEV9636  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:44.54:  19806.900s  CONFIRM DEV: BAC.9641.DEV9641  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:44.71:  52.682s  GET:  BAC.715   ServiceID: 22  Request: 25  Queue: 11  Status: success
+08-Jul-2020, 13:34:44.71:  52.682s  GET:  BAC.723   ServiceID: 22  Request: 29  Queue: 10  Status: in progress
+08-Jul-2020, 13:34:44.72:  52.698s  GET:  BAC.717   ServiceID: 22  Request: 26  Queue: 10  Status: success
+08-Jul-2020, 13:34:44.72:  52.698s  GET:  BAC.725   ServiceID: 22  Request: 30  Queue: 9  Status: in progress
+08-Jul-2020, 13:34:44.73:  52.698s  GET:  BAC.719   ServiceID: 22  Request: 27  Queue: 9  Status: success
+08-Jul-2020, 13:34:44.73:  52.698s  GET:  BAC.727   ServiceID: 22  Request: 31  Queue: 8  Status: in progress
+08-Jul-2020, 13:34:44.74:  52.713s  GET:  BAC.721   ServiceID: 22  Request: 28  Queue: 8  Status: success
+08-Jul-2020, 13:34:44.74:  52.713s  GET:  BAC.729   ServiceID: 22  Request: 32  Queue: 7  Status: in progress
+08-Jul-2020, 13:34:44.93:  19806.900s  CONFIRM DEV: BAC.9641.DEV9641  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:44.93:  19806.900s  CONFIRM DEV: BAC.9642.DEV9642  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:45.04:  53.010s  GET:  BAC.723   ServiceID: 22  Request: 29  Queue: 7  Status: success
+08-Jul-2020, 13:34:45.04:  53.010s  GET:  BAC.731   ServiceID: 22  Request: 33  Queue: 6  Status: in progress
+08-Jul-2020, 13:34:45.05:  53.010s  GET:  BAC.725   ServiceID: 22  Request: 30  Queue: 6  Status: success
+08-Jul-2020, 13:34:45.05:  53.010s  GET:  BAC.733   ServiceID: 22  Request: 34  Queue: 5  Status: in progress
+08-Jul-2020, 13:34:45.06:  53.025s  GET:  BAC.727   ServiceID: 22  Request: 31  Queue: 5  Status: success
+08-Jul-2020, 13:34:45.06:  53.025s  GET:  BAC.735   ServiceID: 22  Request: 35  Queue: 4  Status: in progress
+08-Jul-2020, 13:34:45.07:  53.041s  GET:  BAC.729   ServiceID: 22  Request: 32  Queue: 4  Status: success
+08-Jul-2020, 13:34:45.07:  53.041s  GET:  BAC.9996   ServiceID: 22  Request: 36  Queue: 3  Status: in progress
+08-Jul-2020, 13:34:45.29:  53.259s  GET:  BAC.731   ServiceID: 22  Request: 33  Queue: 3  Status: success
+08-Jul-2020, 13:34:45.29:  53.259s  GET:  BAC.9998   ServiceID: 22  Request: 37  Queue: 2  Status: in progress
+08-Jul-2020, 13:34:45.30:  53.275s  GET:  BAC.733   ServiceID: 22  Request: 34  Queue: 2  Status: success
+08-Jul-2020, 13:34:45.30:  53.275s  GET:  BAC.9999   ServiceID: 22  Request: 38  Queue: 1  Status: in progress
+08-Jul-2020, 13:34:45.31:  53.275s  GET:  BAC.735   ServiceID: 22  Request: 35  Queue: 1  Status: success
+08-Jul-2020, 13:34:45.31:  53.275s  GET:  BAC.6   ServiceID: 23  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:45.31:  53.275s  GET:  BAC.6   ServiceID: 23  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:45.39:  53.368s  GET:  BAC.9996   ServiceID: 22  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:45.51:  19806.900s  CONFIRM DEV: BAC.9642.DEV9642  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:45.51:  19806.900s  CONFIRM DEV: BAC.9643.DEV9643  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:45.56:  53.524s  GET:  BAC.9998   ServiceID: 22  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:34:45.61:  53.571s  GET:  BAC.9999   ServiceID: 22  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:45.80:  19806.900s  CONFIRM DEV: BAC.9643.DEV9643  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:45.80:  19806.900s  CONFIRM DEV: BAC.9644.DEV9644  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:46.16:  19806.900s  CONFIRM DEV: BAC.9644.DEV9644  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:46.16:  19806.900s  CONFIRM DEV: BAC.9645.DEV9645  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:46.55:  54.523s  GET:  BAC.9999   ServiceID: 24  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:46.60:  19806.900s  CONFIRM DEV: BAC.9645.DEV9645  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:46.60:  19806.900s  CONFIRM DEV: BAC.9646.DEV9646  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:46.71:  54.679s  GET:  BAC.9999   ServiceID: 24  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:34:46.93:  19806.900s  CONFIRM DEV: BAC.9646.DEV9646  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:46.95:  19806.900s  CONFIRM DEV: BAC.9647.DEV9647  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:47.21:  19806.900s  CONFIRM DEV: BAC.9647.DEV9647  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:47.21:  19806.900s  CONFIRM DEV: BAC.9649.DEV9649  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:47.41:  55.381s  GET:  BAC.9999   ServiceID: 25  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:47.65:  19806.900s  CONFIRM DEV: BAC.9649.DEV9649  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:47.67:  19806.900s  CONFIRM DEV: BAC.9650.DEV9650  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:47.97:  19806.900s  CONFIRM DEV: BAC.9650.DEV9650  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:47.97:  19806.900s  CONFIRM DEV: BAC.9651.DEV9651  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:48.14:  56.114s  GET:  BAC.505   ServiceID: 26  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:34:48.15:  56.114s  GET:  BAC.602   ServiceID: 26  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:34:48.15:  56.114s  GET:  BAC.604   ServiceID: 26  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:34:48.24:  56.208s  GET:  BAC.505   ServiceID: 26  Request: 1  Queue: 35  Status: success
+08-Jul-2020, 13:34:48.24:  56.208s  GET:  BAC.606   ServiceID: 26  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:34:48.37:  56.332s  GET:  BAC.602   ServiceID: 26  Request: 2  Queue: 34  Status: success
+08-Jul-2020, 13:34:48.37:  56.332s  GET:  BAC.608   ServiceID: 26  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:34:48.38:  56.348s  GET:  BAC.604   ServiceID: 26  Request: 3  Queue: 33  Status: success
+08-Jul-2020, 13:34:48.38:  56.348s  GET:  BAC.610   ServiceID: 26  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:34:48.40:  56.379s  GET:  BAC.606   ServiceID: 26  Request: 4  Queue: 32  Status: success
+08-Jul-2020, 13:34:48.40:  56.379s  GET:  BAC.612   ServiceID: 26  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:34:48.58:  56.551s  GET:  BAC.608   ServiceID: 26  Request: 5  Queue: 31  Status: success
+08-Jul-2020, 13:34:48.58:  56.551s  GET:  BAC.614   ServiceID: 26  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:34:48.60:  56.566s  GET:  BAC.610   ServiceID: 26  Request: 6  Queue: 30  Status: success
+08-Jul-2020, 13:34:48.60:  56.566s  GET:  BAC.616   ServiceID: 26  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:34:48.62:  56.582s  GET:  BAC.612   ServiceID: 26  Request: 7  Queue: 29  Status: success
+08-Jul-2020, 13:34:48.62:  56.582s  GET:  BAC.618   ServiceID: 26  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:34:48.80:  19806.900s  CONFIRM DEV: BAC.9651.DEV9651  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:48.80:  19806.900s  CONFIRM DEV: BAC.9652.DEV9652  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:48.82:  56.785s  GET:  BAC.614   ServiceID: 26  Request: 8  Queue: 28  Status: success
+08-Jul-2020, 13:34:48.82:  56.785s  GET:  BAC.620   ServiceID: 26  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:34:48.83:  56.800s  GET:  BAC.616   ServiceID: 26  Request: 9  Queue: 27  Status: success
+08-Jul-2020, 13:34:48.83:  56.800s  GET:  BAC.622   ServiceID: 26  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:34:48.85:  56.816s  GET:  BAC.618   ServiceID: 26  Request: 10  Queue: 26  Status: success
+08-Jul-2020, 13:34:48.85:  56.816s  GET:  BAC.624   ServiceID: 26  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:34:49.04:  57.003s  GET:  BAC.620   ServiceID: 26  Request: 11  Queue: 25  Status: success
+08-Jul-2020, 13:34:49.04:  57.003s  GET:  BAC.626   ServiceID: 26  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:34:49.05:  57.019s  GET:  BAC.622   ServiceID: 26  Request: 12  Queue: 24  Status: success
+08-Jul-2020, 13:34:49.05:  57.019s  GET:  BAC.628   ServiceID: 26  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:34:49.07:  57.034s  GET:  BAC.624   ServiceID: 26  Request: 13  Queue: 23  Status: success
+08-Jul-2020, 13:34:49.07:  57.034s  GET:  BAC.630   ServiceID: 26  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:34:49.14:  19806.900s  CONFIRM DEV: BAC.9652.DEV9652  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:49.14:  19806.900s  CONFIRM DEV: BAC.9653.DEV9653  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:49.29:  57.253s  GET:  BAC.626   ServiceID: 26  Request: 14  Queue: 22  Status: success
+08-Jul-2020, 13:34:49.29:  57.253s  GET:  BAC.632   ServiceID: 26  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:34:49.30:  57.268s  GET:  BAC.628   ServiceID: 26  Request: 15  Queue: 21  Status: success
+08-Jul-2020, 13:34:49.30:  57.268s  GET:  BAC.634   ServiceID: 26  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:34:49.32:  57.284s  GET:  BAC.630   ServiceID: 26  Request: 16  Queue: 20  Status: success
+08-Jul-2020, 13:34:49.32:  57.284s  GET:  BAC.701   ServiceID: 26  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:34:49.43:  57.393s  GET:  BAC.701   ServiceID: 26  Request: 19  Queue: 19  Status: success
+08-Jul-2020, 13:34:49.43:  57.393s  GET:  BAC.702   ServiceID: 26  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:34:49.44:  57.409s  GET:  BAC.632   ServiceID: 26  Request: 17  Queue: 18  Status: success
+08-Jul-2020, 13:34:49.44:  57.409s  GET:  BAC.703   ServiceID: 26  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:34:49.46:  19806.900s  CONFIRM DEV: BAC.9653.DEV9653  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:49.46:  19806.900s  CONFIRM DEV: BAC.9654.DEV9654  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:49.46:  57.424s  GET:  BAC.634   ServiceID: 26  Request: 18  Queue: 17  Status: success
+08-Jul-2020, 13:34:49.46:  57.424s  GET:  BAC.704   ServiceID: 26  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:34:49.73:  57.690s  GET:  BAC.702   ServiceID: 26  Request: 20  Queue: 16  Status: success
+08-Jul-2020, 13:34:49.73:  57.690s  GET:  BAC.705   ServiceID: 26  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:34:49.73:  57.705s  GET:  BAC.703   ServiceID: 26  Request: 21  Queue: 15  Status: success
+08-Jul-2020, 13:34:49.74:  57.705s  GET:  BAC.713   ServiceID: 26  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:34:49.74:  57.721s  GET:  BAC.704   ServiceID: 26  Request: 22  Queue: 14  Status: success
+08-Jul-2020, 13:34:49.74:  57.721s  GET:  BAC.715   ServiceID: 26  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:34:49.80:  19806.900s  CONFIRM DEV: BAC.9654.DEV9654  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:49.80:  19806.900s  CONFIRM DEV: BAC.9655.DEV9655  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:49.99:  57.955s  GET:  BAC.713   ServiceID: 26  Request: 24  Queue: 13  Status: success
+08-Jul-2020, 13:34:49.99:  57.955s  GET:  BAC.717   ServiceID: 26  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:34:49.99:  57.955s  GET:  BAC.705   ServiceID: 26  Request: 23  Queue: 12  Status: success
+08-Jul-2020, 13:34:49.99:  57.955s  GET:  BAC.719   ServiceID: 26  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:34:50.01:  57.970s  GET:  BAC.715   ServiceID: 26  Request: 25  Queue: 11  Status: success
+08-Jul-2020, 13:34:50.01:  57.970s  GET:  BAC.721   ServiceID: 26  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:34:50.08:  19806.900s  CONFIRM DEV: BAC.9655.DEV9655  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:50.08:  19806.900s  CONFIRM DEV: BAC.9656.DEV9656  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:50.25:  58.220s  GET:  BAC.717   ServiceID: 26  Request: 26  Queue: 10  Status: success
+08-Jul-2020, 13:34:50.25:  58.220s  GET:  BAC.723   ServiceID: 26  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:34:50.28:  58.251s  GET:  BAC.721   ServiceID: 26  Request: 28  Queue: 9  Status: success
+08-Jul-2020, 13:34:50.28:  58.251s  GET:  BAC.725   ServiceID: 26  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:34:50.30:  58.267s  GET:  BAC.719   ServiceID: 26  Request: 27  Queue: 8  Status: success
+08-Jul-2020, 13:34:50.30:  58.267s  GET:  BAC.727   ServiceID: 26  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:34:50.39:  19806.900s  CONFIRM DEV: BAC.9656.DEV9656  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:50.39:  19806.900s  CONFIRM DEV: BAC.9661.DEV9661  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:50.44:  58.407s  GET:  BAC.9999   ServiceID: 25  Request: 1  Queue: 7  Status: success
+08-Jul-2020, 13:34:50.44:  58.407s  GET:  BAC.729   ServiceID: 26  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:34:50.51:  58.485s  GET:  BAC.723   ServiceID: 26  Request: 29  Queue: 6  Status: success
+08-Jul-2020, 13:34:50.51:  58.485s  GET:  BAC.731   ServiceID: 26  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:34:50.52:  58.485s  GET:  BAC.725   ServiceID: 26  Request: 30  Queue: 5  Status: success
+08-Jul-2020, 13:34:50.52:  58.485s  GET:  BAC.733   ServiceID: 26  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:34:50.54:  58.501s  GET:  BAC.727   ServiceID: 26  Request: 31  Queue: 4  Status: success
+08-Jul-2020, 13:34:50.54:  58.501s  GET:  BAC.735   ServiceID: 26  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:34:50.69:  19806.900s  CONFIRM DEV: BAC.9661.DEV9661  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:50.69:  19806.900s  CONFIRM DEV: BAC.9662.DEV9662  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:50.77:  58.735s  GET:  BAC.729   ServiceID: 26  Request: 32  Queue: 3  Status: success
+08-Jul-2020, 13:34:50.77:  58.735s  GET:  BAC.9996   ServiceID: 26  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:34:50.78:  58.750s  GET:  BAC.731   ServiceID: 26  Request: 33  Queue: 2  Status: success
+08-Jul-2020, 13:34:50.78:  58.750s  GET:  BAC.9998   ServiceID: 26  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:34:50.84:  58.797s  GET:  BAC.733   ServiceID: 26  Request: 34  Queue: 1  Status: success
+08-Jul-2020, 13:34:50.84:  58.797s  GET:  BAC.9999   ServiceID: 26  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:50.85:  58.813s  GET:  BAC.735   ServiceID: 26  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:34:51.00:  58.969s  GET:  BAC.9996   ServiceID: 26  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:51.02:  19806.900s  CONFIRM DEV: BAC.9662.DEV9662  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:51.02:  19806.900s  CONFIRM DEV: BAC.9663.DEV9663  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:51.03:  59.000s  GET:  BAC.9998   ServiceID: 26  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:34:51.32:  19806.900s  CONFIRM DEV: BAC.9663.DEV9663  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:51.32:  19806.900s  CONFIRM DEV: BAC.9664.DEV9664  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:51.38:  59.359s  GET:  BAC.9999   ServiceID: 26  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:51.64:  19806.900s  CONFIRM DEV: BAC.9664.DEV9664  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:51.64:  19806.900s  CONFIRM DEV: BAC.9665.DEV9665  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:51.94:  19806.900s  CONFIRM DEV: BAC.9665.DEV9665  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:51.94:  19806.900s  CONFIRM DEV: BAC.9666.DEV9666  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:52.26:  19806.900s  CONFIRM DEV: BAC.9666.DEV9666  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:52.26:  19806.900s  CONFIRM DEV: BAC.9667.DEV9667  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:52.57:  19806.900s  CONFIRM DEV: BAC.9667.DEV9667  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:52.57:  19806.900s  CONFIRM DEV: BAC.9668.DEV9668  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:52.87:  19806.900s  CONFIRM DEV: BAC.9668.DEV9668  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:52.87:  19806.900s  CONFIRM DEV: BAC.9669.DEV9669  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:53.05:  19806.900s  CONFIRM DEV: BAC.9669.DEV9669  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:53.05:  19806.900s  CONFIRM DEV: BAC.9671.DEV9671  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:53.14:  61.106s  GET:  BAC.505   ServiceID: 27  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:34:53.14:  61.106s  GET:  BAC.602   ServiceID: 27  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:34:53.14:  61.106s  GET:  BAC.604   ServiceID: 27  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:34:53.14:  61.106s  GET:  BAC.606   ServiceID: 27  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:34:53.20:  61.168s  GET:  BAC.505   ServiceID: 27  Request: 1  Queue: 34  Status: success
+08-Jul-2020, 13:34:53.20:  61.168s  GET:  BAC.608   ServiceID: 27  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:34:53.24:  61.215s  GET:  BAC.602   ServiceID: 27  Request: 2  Queue: 33  Status: success
+08-Jul-2020, 13:34:53.25:  61.215s  GET:  BAC.610   ServiceID: 27  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:34:53.25:  61.231s  GET:  BAC.604   ServiceID: 27  Request: 3  Queue: 32  Status: success
+08-Jul-2020, 13:34:53.25:  61.231s  GET:  BAC.612   ServiceID: 27  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:34:53.27:  61.231s  GET:  BAC.606   ServiceID: 27  Request: 4  Queue: 31  Status: success
+08-Jul-2020, 13:34:53.27:  61.231s  GET:  BAC.614   ServiceID: 27  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:34:53.28:  61.246s  GET:  BAC.608   ServiceID: 27  Request: 5  Queue: 30  Status: success
+08-Jul-2020, 13:34:53.28:  61.246s  GET:  BAC.616   ServiceID: 27  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:34:53.37:  19806.900s  CONFIRM DEV: BAC.9671.DEV9671  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:53.37:  19806.900s  CONFIRM DEV: BAC.9672.DEV9672  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:53.43:  61.402s  GET:  BAC.610   ServiceID: 27  Request: 6  Queue: 29  Status: success
+08-Jul-2020, 13:34:53.43:  61.402s  GET:  BAC.618   ServiceID: 27  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:34:53.44:  61.418s  GET:  BAC.612   ServiceID: 27  Request: 7  Queue: 28  Status: success
+08-Jul-2020, 13:34:53.44:  61.418s  GET:  BAC.620   ServiceID: 27  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:34:53.45:  61.418s  GET:  BAC.614   ServiceID: 27  Request: 8  Queue: 27  Status: success
+08-Jul-2020, 13:34:53.45:  61.418s  GET:  BAC.622   ServiceID: 27  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:34:53.47:  61.434s  GET:  BAC.616   ServiceID: 27  Request: 9  Queue: 26  Status: success
+08-Jul-2020, 13:34:53.47:  61.434s  GET:  BAC.624   ServiceID: 27  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:34:53.63:  61.590s  GET:  BAC.618   ServiceID: 27  Request: 10  Queue: 25  Status: success
+08-Jul-2020, 13:34:53.63:  61.590s  GET:  BAC.626   ServiceID: 27  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:34:53.63:  61.605s  GET:  BAC.620   ServiceID: 27  Request: 11  Queue: 24  Status: success
+08-Jul-2020, 13:34:53.63:  61.605s  GET:  BAC.628   ServiceID: 27  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:34:53.64:  61.605s  GET:  BAC.622   ServiceID: 27  Request: 12  Queue: 23  Status: success
+08-Jul-2020, 13:34:53.64:  61.605s  GET:  BAC.630   ServiceID: 27  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:34:53.65:  61.621s  GET:  BAC.624   ServiceID: 27  Request: 13  Queue: 22  Status: success
+08-Jul-2020, 13:34:53.65:  61.621s  GET:  BAC.632   ServiceID: 27  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:34:53.81:  19806.900s  CONFIRM DEV: BAC.9672.DEV9672  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:53.81:  19806.900s  CONFIRM DEV: BAC.9673.DEV9673  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:53.82:  61.792s  GET:  BAC.626   ServiceID: 27  Request: 14  Queue: 21  Status: success
+08-Jul-2020, 13:34:53.82:  61.792s  GET:  BAC.634   ServiceID: 27  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:34:53.82:  61.792s  GET:  BAC.628   ServiceID: 27  Request: 15  Queue: 20  Status: success
+08-Jul-2020, 13:34:53.82:  61.792s  GET:  BAC.701   ServiceID: 27  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:34:53.82:  61.792s  GET:  BAC.630   ServiceID: 27  Request: 16  Queue: 19  Status: success
+08-Jul-2020, 13:34:53.82:  61.792s  GET:  BAC.702   ServiceID: 27  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:34:53.84:  61.808s  GET:  BAC.632   ServiceID: 27  Request: 17  Queue: 18  Status: success
+08-Jul-2020, 13:34:53.84:  61.808s  GET:  BAC.703   ServiceID: 27  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:34:53.92:  61.886s  GET:  BAC.701   ServiceID: 27  Request: 19  Queue: 17  Status: success
+08-Jul-2020, 13:34:53.92:  61.886s  GET:  BAC.704   ServiceID: 27  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:34:53.92:  61.886s  GET:  BAC.702   ServiceID: 27  Request: 20  Queue: 16  Status: success
+08-Jul-2020, 13:34:53.92:  61.886s  GET:  BAC.705   ServiceID: 27  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:34:53.94:  61.902s  GET:  BAC.634   ServiceID: 27  Request: 18  Queue: 15  Status: success
+08-Jul-2020, 13:34:53.94:  61.902s  GET:  BAC.713   ServiceID: 27  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:34:53.98:  61.948s  GET:  BAC.703   ServiceID: 27  Request: 21  Queue: 14  Status: success
+08-Jul-2020, 13:34:53.98:  61.948s  GET:  BAC.715   ServiceID: 27  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:34:54.17:  62.136s  GET:  BAC.704   ServiceID: 27  Request: 22  Queue: 13  Status: success
+08-Jul-2020, 13:34:54.17:  62.136s  GET:  BAC.717   ServiceID: 27  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:34:54.20:  19806.900s  CONFIRM DEV: BAC.9673.DEV9673  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:54.20:  19806.900s  CONFIRM DEV: BAC.9674.DEV9674  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:54.20:  62.167s  GET:  BAC.705   ServiceID: 27  Request: 23  Queue: 12  Status: success
+08-Jul-2020, 13:34:54.20:  62.167s  GET:  BAC.719   ServiceID: 27  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:34:54.21:  62.182s  GET:  BAC.715   ServiceID: 27  Request: 25  Queue: 11  Status: success
+08-Jul-2020, 13:34:54.21:  62.182s  GET:  BAC.721   ServiceID: 27  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:34:54.27:  62.229s  GET:  BAC.713   ServiceID: 27  Request: 24  Queue: 10  Status: success
+08-Jul-2020, 13:34:54.27:  62.229s  GET:  BAC.723   ServiceID: 27  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:34:54.56:  19806.900s  CONFIRM DEV: BAC.9674.DEV9674  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:54.56:  19806.900s  CONFIRM DEV: BAC.9675.DEV9675  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:54.60:  62.572s  GET:  BAC.717   ServiceID: 27  Request: 26  Queue: 9  Status: success
+08-Jul-2020, 13:34:54.60:  62.572s  GET:  BAC.725   ServiceID: 27  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:34:54.60:  62.572s  GET:  BAC.719   ServiceID: 27  Request: 27  Queue: 8  Status: success
+08-Jul-2020, 13:34:54.60:  62.572s  GET:  BAC.727   ServiceID: 27  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:34:54.60:  62.572s  GET:  BAC.723   ServiceID: 27  Request: 29  Queue: 7  Status: success
+08-Jul-2020, 13:34:54.60:  62.572s  GET:  BAC.729   ServiceID: 27  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:34:54.60:  62.572s  GET:  BAC.721   ServiceID: 27  Request: 28  Queue: 6  Status: success
+08-Jul-2020, 13:34:54.60:  62.572s  GET:  BAC.731   ServiceID: 27  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:34:54.75:  62.713s  GET:  BAC.725   ServiceID: 27  Request: 30  Queue: 5  Status: success
+08-Jul-2020, 13:34:54.75:  62.713s  GET:  BAC.733   ServiceID: 27  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:34:54.76:  62.728s  GET:  BAC.727   ServiceID: 27  Request: 31  Queue: 4  Status: success
+08-Jul-2020, 13:34:54.76:  62.728s  GET:  BAC.735   ServiceID: 27  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:34:54.77:  62.744s  GET:  BAC.729   ServiceID: 27  Request: 32  Queue: 3  Status: success
+08-Jul-2020, 13:34:54.77:  62.744s  GET:  BAC.9996   ServiceID: 27  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:34:54.78:  62.744s  GET:  BAC.731   ServiceID: 27  Request: 33  Queue: 2  Status: success
+08-Jul-2020, 13:34:54.78:  62.744s  GET:  BAC.9998   ServiceID: 27  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:34:54.89:  62.869s  GET:  BAC.733   ServiceID: 27  Request: 34  Queue: 1  Status: success
+08-Jul-2020, 13:34:54.89:  62.869s  GET:  BAC.9999   ServiceID: 27  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:54.90:  62.869s  GET:  BAC.735   ServiceID: 27  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:34:54.90:  19806.900s  CONFIRM DEV: BAC.9675.DEV9675  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:54.90:  19806.900s  CONFIRM DEV: BAC.9676.DEV9676  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:54.96:  62.931s  GET:  BAC.9996   ServiceID: 27  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:54.98:  62.947s  GET:  BAC.9998   ServiceID: 27  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:34:55.23:  63.196s  GET:  BAC.9999   ServiceID: 27  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:34:55.26:  19806.900s  CONFIRM DEV: BAC.9676.DEV9676  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:55.26:  19806.900s  CONFIRM DEV: BAC.9677.DEV9677  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:55.60:  19806.900s  CONFIRM DEV: BAC.9677.DEV9677  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:55.60:  19806.900s  CONFIRM DEV: BAC.9678.DEV9678  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:55.96:  19806.900s  CONFIRM DEV: BAC.9678.DEV9678  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:55.96:  19806.900s  CONFIRM DEV: BAC.9679.DEV9679  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:56.33:  19806.900s  CONFIRM DEV: BAC.9679.DEV9679  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:56.33:  19806.900s  CONFIRM DEV: BAC.9701.DEV9701  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:56.63:  19806.900s  CONFIRM DEV: BAC.9701.DEV9701  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:56.63:  19806.900s  CONFIRM DEV: BAC.9702.DEV9702  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:57.09:  19806.900s  CONFIRM DEV: BAC.9702.DEV9702  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:57.09:  19806.900s  CONFIRM DEV: BAC.9703.DEV9703  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:57.43:  65.396s  GET:  BAC.9999   ServiceID: 28  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:34:57.51:  19806.900s  CONFIRM DEV: BAC.9703.DEV9703  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:57.52:  19806.900s  CONFIRM DEV: BAC.9704.DEV9704  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:57.93:  19806.900s  CONFIRM DEV: BAC.9704.DEV9704  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:57.93:  19806.900s  CONFIRM DEV: BAC.9705.DEV9705  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:58.15:  66.114s  GET:  BAC.505   ServiceID: 29  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:34:58.17:  66.129s  GET:  BAC.602   ServiceID: 29  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:34:58.17:  66.129s  GET:  BAC.604   ServiceID: 29  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:34:58.23:  66.192s  GET:  BAC.505   ServiceID: 29  Request: 1  Queue: 35  Status: success
+08-Jul-2020, 13:34:58.23:  66.192s  GET:  BAC.606   ServiceID: 29  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:34:58.29:  66.254s  GET:  BAC.602   ServiceID: 29  Request: 2  Queue: 34  Status: success
+08-Jul-2020, 13:34:58.29:  66.254s  GET:  BAC.608   ServiceID: 29  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:34:58.29:  66.254s  GET:  BAC.604   ServiceID: 29  Request: 3  Queue: 33  Status: success
+08-Jul-2020, 13:34:58.29:  66.254s  GET:  BAC.610   ServiceID: 29  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:34:58.29:  19806.900s  CONFIRM DEV: BAC.9705.DEV9705  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:58.31:  19806.900s  CONFIRM DEV: BAC.9706.DEV9706  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:58.36:  66.332s  GET:  BAC.606   ServiceID: 29  Request: 4  Queue: 32  Status: success
+08-Jul-2020, 13:34:58.36:  66.332s  GET:  BAC.612   ServiceID: 29  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:34:58.37:  66.332s  GET:  BAC.608   ServiceID: 29  Request: 5  Queue: 31  Status: success
+08-Jul-2020, 13:34:58.37:  66.332s  GET:  BAC.614   ServiceID: 29  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:34:58.38:  66.348s  GET:  BAC.610   ServiceID: 29  Request: 6  Queue: 30  Status: success
+08-Jul-2020, 13:34:58.38:  66.348s  GET:  BAC.616   ServiceID: 29  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:34:58.60:  66.566s  GET:  BAC.612   ServiceID: 29  Request: 7  Queue: 29  Status: success
+08-Jul-2020, 13:34:58.60:  66.566s  GET:  BAC.618   ServiceID: 29  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:34:58.60:  66.566s  GET:  BAC.614   ServiceID: 29  Request: 8  Queue: 28  Status: success
+08-Jul-2020, 13:34:58.60:  66.566s  GET:  BAC.620   ServiceID: 29  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:34:58.60:  66.566s  GET:  BAC.616   ServiceID: 29  Request: 9  Queue: 27  Status: success
+08-Jul-2020, 13:34:58.60:  66.566s  GET:  BAC.622   ServiceID: 29  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:34:58.68:  19806.900s  CONFIRM DEV: BAC.9706.DEV9706  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:58.68:  19806.900s  CONFIRM DEV: BAC.9707.DEV9707  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:58.72:  66.691s  GET:  BAC.618   ServiceID: 29  Request: 10  Queue: 26  Status: success
+08-Jul-2020, 13:34:58.72:  66.691s  GET:  BAC.624   ServiceID: 29  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:34:58.73:  66.691s  GET:  BAC.620   ServiceID: 29  Request: 11  Queue: 25  Status: success
+08-Jul-2020, 13:34:58.73:  66.691s  GET:  BAC.626   ServiceID: 29  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:34:58.74:  66.706s  GET:  BAC.622   ServiceID: 29  Request: 12  Queue: 24  Status: success
+08-Jul-2020, 13:34:58.74:  66.706s  GET:  BAC.628   ServiceID: 29  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:34:58.85:  66.816s  GET:  BAC.624   ServiceID: 29  Request: 13  Queue: 23  Status: success
+08-Jul-2020, 13:34:58.85:  66.816s  GET:  BAC.630   ServiceID: 29  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:34:58.86:  66.831s  GET:  BAC.626   ServiceID: 29  Request: 14  Queue: 22  Status: success
+08-Jul-2020, 13:34:58.86:  66.831s  GET:  BAC.632   ServiceID: 29  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:34:58.89:  66.862s  GET:  BAC.628   ServiceID: 29  Request: 15  Queue: 21  Status: success
+08-Jul-2020, 13:34:58.89:  66.862s  GET:  BAC.634   ServiceID: 29  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:34:58.91:  19806.900s  CONFIRM DEV: BAC.9707.DEV9707  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:58.91:  19806.900s  CONFIRM DEV: BAC.9708.DEV9708  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:59.32:  19806.900s  CONFIRM DEV: BAC.9708.DEV9708  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:59.32:  19806.900s  CONFIRM DEV: BAC.9709.DEV9709  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:59.32:  67.284s  GET:  BAC.630   ServiceID: 29  Request: 16  Queue: 20  Status: success
+08-Jul-2020, 13:34:59.32:  67.284s  GET:  BAC.701   ServiceID: 29  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:34:59.35:  67.315s  GET:  BAC.632   ServiceID: 29  Request: 17  Queue: 19  Status: success
+08-Jul-2020, 13:34:59.35:  67.315s  GET:  BAC.702   ServiceID: 29  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:34:59.35:  67.315s  GET:  BAC.634   ServiceID: 29  Request: 18  Queue: 18  Status: success
+08-Jul-2020, 13:34:59.35:  67.315s  GET:  BAC.703   ServiceID: 29  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:34:59.47:  67.440s  GET:  BAC.701   ServiceID: 29  Request: 19  Queue: 17  Status: success
+08-Jul-2020, 13:34:59.47:  67.440s  GET:  BAC.704   ServiceID: 29  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:34:59.51:  67.471s  GET:  BAC.702   ServiceID: 29  Request: 20  Queue: 16  Status: success
+08-Jul-2020, 13:34:59.51:  67.471s  GET:  BAC.705   ServiceID: 29  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:34:59.51:  67.471s  GET:  BAC.703   ServiceID: 29  Request: 21  Queue: 15  Status: success
+08-Jul-2020, 13:34:59.51:  67.471s  GET:  BAC.713   ServiceID: 29  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:34:59.63:  67.596s  GET:  BAC.704   ServiceID: 29  Request: 22  Queue: 14  Status: success
+08-Jul-2020, 13:34:59.63:  67.596s  GET:  BAC.715   ServiceID: 29  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:34:59.72:  67.689s  GET:  BAC.705   ServiceID: 29  Request: 23  Queue: 13  Status: success
+08-Jul-2020, 13:34:59.72:  67.689s  GET:  BAC.717   ServiceID: 29  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:34:59.72:  67.689s  GET:  BAC.713   ServiceID: 29  Request: 24  Queue: 12  Status: success
+08-Jul-2020, 13:34:59.72:  67.689s  GET:  BAC.719   ServiceID: 29  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:34:59.73:  19806.900s  CONFIRM DEV: BAC.9709.DEV9709  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:34:59.73:  19806.900s  CONFIRM DEV: BAC.9710.DEV9710  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:34:59.74:  67.705s  GET:  BAC.715   ServiceID: 29  Request: 25  Queue: 11  Status: success
+08-Jul-2020, 13:34:59.74:  67.705s  GET:  BAC.721   ServiceID: 29  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:34:59.89:  67.861s  GET:  BAC.721   ServiceID: 29  Request: 28  Queue: 10  Status: success
+08-Jul-2020, 13:34:59.89:  67.861s  GET:  BAC.723   ServiceID: 29  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:34:59.93:  67.892s  GET:  BAC.717   ServiceID: 29  Request: 26  Queue: 9  Status: success
+08-Jul-2020, 13:34:59.93:  67.892s  GET:  BAC.725   ServiceID: 29  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:34:59.93:  67.892s  GET:  BAC.719   ServiceID: 29  Request: 27  Queue: 8  Status: success
+08-Jul-2020, 13:34:59.93:  67.892s  GET:  BAC.727   ServiceID: 29  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:35:00.07:  19806.900s  CONFIRM DEV: BAC.9710.DEV9710  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:00.08:  19806.900s  CONFIRM DEV: BAC.9711.DEV9711  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:00.14:  68.110s  GET:  BAC.723   ServiceID: 29  Request: 29  Queue: 7  Status: success
+08-Jul-2020, 13:35:00.14:  68.110s  GET:  BAC.729   ServiceID: 29  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:35:00.16:  68.126s  GET:  BAC.725   ServiceID: 29  Request: 30  Queue: 6  Status: success
+08-Jul-2020, 13:35:00.16:  68.126s  GET:  BAC.731   ServiceID: 29  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:35:00.16:  68.126s  GET:  BAC.727   ServiceID: 29  Request: 31  Queue: 5  Status: success
+08-Jul-2020, 13:35:00.16:  68.126s  GET:  BAC.733   ServiceID: 29  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:35:00.39:  68.360s  GET:  BAC.729   ServiceID: 29  Request: 32  Queue: 4  Status: success
+08-Jul-2020, 13:35:00.39:  68.360s  GET:  BAC.735   ServiceID: 29  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:35:00.40:  68.376s  GET:  BAC.731   ServiceID: 29  Request: 33  Queue: 3  Status: success
+08-Jul-2020, 13:35:00.40:  68.376s  GET:  BAC.9996   ServiceID: 29  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:35:00.45:  19806.900s  CONFIRM DEV: BAC.9711.DEV9711  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:00.45:  19806.900s  CONFIRM DEV: BAC.9712.DEV9712  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:00.63:  68.594s  GET:  BAC.733   ServiceID: 29  Request: 34  Queue: 2  Status: success
+08-Jul-2020, 13:35:00.63:  68.594s  GET:  BAC.9998   ServiceID: 29  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:35:00.66:  68.625s  GET:  BAC.9996   ServiceID: 29  Request: 36  Queue: 1  Status: ** partial failure
+08-Jul-2020, 13:35:00.66:  68.625s  GET:  BAC.9999   ServiceID: 29  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:35:00.68:  19806.900s  CONFIRM DEV: BAC.9712.DEV9712  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:00.68:  19806.900s  CONFIRM DEV: BAC.9713.DEV9713  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:00.70:  68.672s  GET:  BAC.9999   ServiceID: 28  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:35:00.78:  68.750s  GET:  BAC.735   ServiceID: 29  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:35:00.94:  68.906s  GET:  BAC.9998   ServiceID: 29  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:35:00.96:  19806.900s  CONFIRM DEV: BAC.9713.DEV9713  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:00.96:  19806.900s  CONFIRM DEV: BAC.9714.DEV9714  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:00.99:  68.953s  GET:  BAC.9999   ServiceID: 29  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:01.27:  19806.900s  CONFIRM DEV: BAC.9714.DEV9714  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:01.27:  19806.900s  CONFIRM DEV: BAC.9715.DEV9715  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:01.56:  19806.900s  CONFIRM DEV: BAC.9715.DEV9715  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:01.56:  19806.900s  CONFIRM DEV: BAC.9721.DEV9721  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:01.84:  19806.900s  CONFIRM DEV: BAC.9721.DEV9721  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:01.84:  19806.900s  CONFIRM DEV: BAC.9722.DEV9722  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:02.15:  19806.900s  CONFIRM DEV: BAC.9722.DEV9722  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:02.15:  19806.900s  CONFIRM DEV: BAC.9723.DEV9723  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:02.49:  19806.900s  CONFIRM DEV: BAC.9723.DEV9723  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:02.49:  19806.900s  CONFIRM DEV: BAC.9724.DEV9724  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:02.78:  19806.900s  CONFIRM DEV: BAC.9724.DEV9724  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:02.78:  19806.900s  CONFIRM DEV: BAC.9725.DEV9725  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:02.96:  19806.900s  CONFIRM DEV: BAC.9725.DEV9725  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:02.96:  19806.900s  CONFIRM DEV: BAC.9726.DEV9726  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:03.15:  71.121s  GET:  BAC.505   ServiceID: 30  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:35:03.15:  71.121s  GET:  BAC.602   ServiceID: 30  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:35:03.16:  71.121s  GET:  BAC.604   ServiceID: 30  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:35:03.16:  71.121s  GET:  BAC.606   ServiceID: 30  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:35:03.22:  71.184s  GET:  BAC.505   ServiceID: 30  Request: 1  Queue: 34  Status: success
+08-Jul-2020, 13:35:03.22:  71.184s  GET:  BAC.608   ServiceID: 30  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:35:03.22:  71.199s  GET:  BAC.602   ServiceID: 30  Request: 2  Queue: 33  Status: success
+08-Jul-2020, 13:35:03.22:  71.199s  GET:  BAC.610   ServiceID: 30  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:35:03.23:  71.199s  GET:  BAC.604   ServiceID: 30  Request: 3  Queue: 32  Status: success
+08-Jul-2020, 13:35:03.23:  71.199s  GET:  BAC.612   ServiceID: 30  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:35:03.25:  71.215s  GET:  BAC.606   ServiceID: 30  Request: 4  Queue: 31  Status: success
+08-Jul-2020, 13:35:03.25:  71.215s  GET:  BAC.614   ServiceID: 30  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:35:03.26:  19806.900s  CONFIRM DEV: BAC.9726.DEV9726  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:03.26:  19806.900s  CONFIRM DEV: BAC.9727.DEV9727  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:03.40:  71.371s  GET:  BAC.608   ServiceID: 30  Request: 5  Queue: 30  Status: success
+08-Jul-2020, 13:35:03.40:  71.371s  GET:  BAC.616   ServiceID: 30  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:35:03.41:  71.371s  GET:  BAC.610   ServiceID: 30  Request: 6  Queue: 29  Status: success
+08-Jul-2020, 13:35:03.41:  71.371s  GET:  BAC.618   ServiceID: 30  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:35:03.42:  71.386s  GET:  BAC.612   ServiceID: 30  Request: 7  Queue: 28  Status: success
+08-Jul-2020, 13:35:03.42:  71.386s  GET:  BAC.620   ServiceID: 30  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:35:03.43:  71.402s  GET:  BAC.614   ServiceID: 30  Request: 8  Queue: 27  Status: success
+08-Jul-2020, 13:35:03.43:  71.402s  GET:  BAC.622   ServiceID: 30  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:35:03.55:  19806.900s  CONFIRM DEV: BAC.9727.DEV9727  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:03.55:  19806.900s  CONFIRM DEV: BAC.9728.DEV9728  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:03.58:  71.543s  GET:  BAC.616   ServiceID: 30  Request: 9  Queue: 26  Status: success
+08-Jul-2020, 13:35:03.58:  71.543s  GET:  BAC.624   ServiceID: 30  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:35:03.59:  71.558s  GET:  BAC.618   ServiceID: 30  Request: 10  Queue: 25  Status: success
+08-Jul-2020, 13:35:03.59:  71.558s  GET:  BAC.626   ServiceID: 30  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:35:03.62:  71.589s  GET:  BAC.620   ServiceID: 30  Request: 11  Queue: 24  Status: success
+08-Jul-2020, 13:35:03.62:  71.589s  GET:  BAC.628   ServiceID: 30  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:35:03.62:  71.589s  GET:  BAC.622   ServiceID: 30  Request: 12  Queue: 23  Status: success
+08-Jul-2020, 13:35:03.62:  71.589s  GET:  BAC.630   ServiceID: 30  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:35:03.78:  71.745s  GET:  BAC.624   ServiceID: 30  Request: 13  Queue: 22  Status: success
+08-Jul-2020, 13:35:03.78:  71.745s  GET:  BAC.632   ServiceID: 30  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:35:03.78:  71.745s  GET:  BAC.626   ServiceID: 30  Request: 14  Queue: 21  Status: success
+08-Jul-2020, 13:35:03.78:  71.745s  GET:  BAC.634   ServiceID: 30  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:35:03.79:  71.761s  GET:  BAC.628   ServiceID: 30  Request: 15  Queue: 20  Status: success
+08-Jul-2020, 13:35:03.79:  71.761s  GET:  BAC.701   ServiceID: 30  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:35:03.80:  71.777s  GET:  BAC.630   ServiceID: 30  Request: 16  Queue: 19  Status: success
+08-Jul-2020, 13:35:03.80:  71.777s  GET:  BAC.702   ServiceID: 30  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:35:03.85:  19806.900s  CONFIRM DEV: BAC.9728.DEV9728  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:03.85:  19806.900s  CONFIRM DEV: BAC.9729.DEV9729  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:03.90:  71.870s  GET:  BAC.701   ServiceID: 30  Request: 19  Queue: 18  Status: success
+08-Jul-2020, 13:35:03.90:  71.870s  GET:  BAC.703   ServiceID: 30  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:35:03.91:  71.870s  GET:  BAC.702   ServiceID: 30  Request: 20  Queue: 17  Status: success
+08-Jul-2020, 13:35:03.91:  71.870s  GET:  BAC.704   ServiceID: 30  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:35:03.91:  71.886s  GET:  BAC.632   ServiceID: 30  Request: 17  Queue: 16  Status: success
+08-Jul-2020, 13:35:03.91:  71.886s  GET:  BAC.705   ServiceID: 30  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:35:03.94:  71.917s  GET:  BAC.634   ServiceID: 30  Request: 18  Queue: 15  Status: success
+08-Jul-2020, 13:35:03.94:  71.917s  GET:  BAC.713   ServiceID: 30  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:35:04.14:  19806.900s  CONFIRM DEV: BAC.9729.DEV9729  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:04.14:  19806.900s  CONFIRM DEV: BAC.9730.DEV9730  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:04.20:  72.167s  GET:  BAC.703   ServiceID: 30  Request: 21  Queue: 14  Status: success
+08-Jul-2020, 13:35:04.20:  72.167s  GET:  BAC.715   ServiceID: 30  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:35:04.21:  72.182s  GET:  BAC.704   ServiceID: 30  Request: 22  Queue: 13  Status: success
+08-Jul-2020, 13:35:04.21:  72.182s  GET:  BAC.717   ServiceID: 30  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:35:04.22:  72.182s  GET:  BAC.705   ServiceID: 30  Request: 23  Queue: 12  Status: success
+08-Jul-2020, 13:35:04.22:  72.182s  GET:  BAC.719   ServiceID: 30  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:35:04.25:  72.229s  GET:  BAC.713   ServiceID: 30  Request: 24  Queue: 11  Status: success
+08-Jul-2020, 13:35:04.25:  72.229s  GET:  BAC.721   ServiceID: 30  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:35:04.43:  19806.900s  CONFIRM DEV: BAC.9730.DEV9730  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:04.43:  19806.900s  CONFIRM DEV: BAC.9731.DEV9731  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:04.53:  72.494s  GET:  BAC.715   ServiceID: 30  Request: 25  Queue: 10  Status: success
+08-Jul-2020, 13:35:04.53:  72.494s  GET:  BAC.723   ServiceID: 30  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:35:04.54:  72.510s  GET:  BAC.717   ServiceID: 30  Request: 26  Queue: 9  Status: success
+08-Jul-2020, 13:35:04.54:  72.510s  GET:  BAC.725   ServiceID: 30  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:35:04.54:  72.510s  GET:  BAC.719   ServiceID: 30  Request: 27  Queue: 8  Status: success
+08-Jul-2020, 13:35:04.54:  72.510s  GET:  BAC.727   ServiceID: 30  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:35:04.56:  72.525s  GET:  BAC.721   ServiceID: 30  Request: 28  Queue: 7  Status: success
+08-Jul-2020, 13:35:04.56:  72.525s  GET:  BAC.729   ServiceID: 30  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:35:04.76:  72.728s  GET:  BAC.723   ServiceID: 30  Request: 29  Queue: 6  Status: success
+08-Jul-2020, 13:35:04.76:  72.728s  GET:  BAC.731   ServiceID: 30  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:35:04.77:  72.728s  GET:  BAC.725   ServiceID: 30  Request: 30  Queue: 5  Status: success
+08-Jul-2020, 13:35:04.77:  72.728s  GET:  BAC.733   ServiceID: 30  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:35:04.78:  72.744s  GET:  BAC.727   ServiceID: 30  Request: 31  Queue: 4  Status: success
+08-Jul-2020, 13:35:04.78:  72.744s  GET:  BAC.735   ServiceID: 30  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:35:04.79:  72.759s  GET:  BAC.729   ServiceID: 30  Request: 32  Queue: 3  Status: success
+08-Jul-2020, 13:35:04.79:  72.759s  GET:  BAC.9996   ServiceID: 30  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:35:04.95:  72.915s  GET:  BAC.731   ServiceID: 30  Request: 33  Queue: 2  Status: success
+08-Jul-2020, 13:35:04.95:  72.915s  GET:  BAC.9998   ServiceID: 30  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:35:04.96:  72.931s  GET:  BAC.733   ServiceID: 30  Request: 34  Queue: 1  Status: success
+08-Jul-2020, 13:35:04.96:  72.931s  GET:  BAC.9999   ServiceID: 30  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:35:04.97:  72.931s  GET:  BAC.735   ServiceID: 30  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:35:05.72:  73.680s  GET:  BAC.9996   ServiceID: 30  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:05.73:  73.695s  GET:  BAC.9998   ServiceID: 30  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:35:05.77:  19806.900s  CONFIRM DEV: BAC.9731.DEV9731  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:05.77:  19806.900s  CONFIRM DEV: BAC.9732.DEV9732  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:05.78:  73.742s  GET:  BAC.9999   ServiceID: 30  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:06.01:  19806.900s  CONFIRM DEV: BAC.9732.DEV9732  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:06.02:  19806.900s  CONFIRM DEV: BAC.9733.DEV9733  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:06.36:  19806.900s  CONFIRM DEV: BAC.9733.DEV9733  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:06.36:  19806.900s  CONFIRM DEV: BAC.9734.DEV9734  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:06.68:  19806.900s  CONFIRM DEV: BAC.9734.DEV9734  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:06.68:  19806.900s  CONFIRM DEV: BAC.9735.DEV9735  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:06.98:  19806.900s  CONFIRM DEV: BAC.9735.DEV9735  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:06.98:  19806.900s  CONFIRM DEV: BAC.9736.DEV9736  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:07.27:  19806.900s  CONFIRM DEV: BAC.9736.DEV9736  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:07.27:  19806.900s  CONFIRM DEV: BAC.9737.DEV9737  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:07.42:  75.396s  GET:  BAC.9999   ServiceID: 31  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:35:07.55:  19806.900s  CONFIRM DEV: BAC.9737.DEV9737  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:07.55:  19806.900s  CONFIRM DEV: BAC.9741.DEV9741  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:07.73:  19806.900s  CONFIRM DEV: BAC.9741.DEV9741  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:07.74:  19806.900s  CONFIRM DEV: BAC.9742.DEV9742  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:08.03:  19806.900s  CONFIRM DEV: BAC.9742.DEV9742  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:08.03:  19806.900s  CONFIRM DEV: BAC.9743.DEV9743  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:08.17:  76.129s  GET:  BAC.505   ServiceID: 32  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:35:08.17:  76.129s  GET:  BAC.602   ServiceID: 32  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:35:08.17:  76.129s  GET:  BAC.604   ServiceID: 32  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:35:08.24:  76.207s  GET:  BAC.505   ServiceID: 32  Request: 1  Queue: 35  Status: success
+08-Jul-2020, 13:35:08.24:  76.207s  GET:  BAC.606   ServiceID: 32  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:35:08.25:  76.223s  GET:  BAC.602   ServiceID: 32  Request: 2  Queue: 34  Status: success
+08-Jul-2020, 13:35:08.25:  76.223s  GET:  BAC.608   ServiceID: 32  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:35:08.26:  76.223s  GET:  BAC.604   ServiceID: 32  Request: 3  Queue: 33  Status: success
+08-Jul-2020, 13:35:08.26:  76.223s  GET:  BAC.610   ServiceID: 32  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:35:08.36:  19806.900s  CONFIRM DEV: BAC.9743.DEV9743  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:08.37:  19806.900s  CONFIRM DEV: BAC.9744.DEV9744  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:08.39:  76.363s  GET:  BAC.606   ServiceID: 32  Request: 4  Queue: 32  Status: success
+08-Jul-2020, 13:35:08.39:  76.363s  GET:  BAC.612   ServiceID: 32  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:35:08.40:  76.363s  GET:  BAC.608   ServiceID: 32  Request: 5  Queue: 31  Status: success
+08-Jul-2020, 13:35:08.40:  76.363s  GET:  BAC.614   ServiceID: 32  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:35:08.41:  76.379s  GET:  BAC.610   ServiceID: 32  Request: 6  Queue: 30  Status: success
+08-Jul-2020, 13:35:08.41:  76.379s  GET:  BAC.616   ServiceID: 32  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:35:08.58:  76.550s  GET:  BAC.612   ServiceID: 32  Request: 7  Queue: 29  Status: success
+08-Jul-2020, 13:35:08.58:  76.550s  GET:  BAC.618   ServiceID: 32  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:35:08.59:  76.550s  GET:  BAC.614   ServiceID: 32  Request: 8  Queue: 28  Status: success
+08-Jul-2020, 13:35:08.59:  76.550s  GET:  BAC.620   ServiceID: 32  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:35:08.60:  76.566s  GET:  BAC.616   ServiceID: 32  Request: 9  Queue: 27  Status: success
+08-Jul-2020, 13:35:08.60:  76.566s  GET:  BAC.622   ServiceID: 32  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:35:08.76:  76.722s  GET:  BAC.618   ServiceID: 32  Request: 10  Queue: 26  Status: success
+08-Jul-2020, 13:35:08.76:  76.722s  GET:  BAC.624   ServiceID: 32  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:35:08.77:  76.737s  GET:  BAC.620   ServiceID: 32  Request: 11  Queue: 25  Status: success
+08-Jul-2020, 13:35:08.77:  76.737s  GET:  BAC.626   ServiceID: 32  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:35:08.78:  76.753s  GET:  BAC.622   ServiceID: 32  Request: 12  Queue: 24  Status: success
+08-Jul-2020, 13:35:08.78:  76.753s  GET:  BAC.628   ServiceID: 32  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:35:08.91:  76.878s  GET:  BAC.624   ServiceID: 32  Request: 13  Queue: 23  Status: success
+08-Jul-2020, 13:35:08.91:  76.878s  GET:  BAC.630   ServiceID: 32  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:35:08.92:  76.893s  GET:  BAC.626   ServiceID: 32  Request: 14  Queue: 22  Status: success
+08-Jul-2020, 13:35:08.92:  76.893s  GET:  BAC.632   ServiceID: 32  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:35:08.93:  76.909s  GET:  BAC.628   ServiceID: 32  Request: 15  Queue: 21  Status: success
+08-Jul-2020, 13:35:08.93:  76.909s  GET:  BAC.634   ServiceID: 32  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:35:09.07:  77.034s  GET:  BAC.630   ServiceID: 32  Request: 16  Queue: 20  Status: success
+08-Jul-2020, 13:35:09.07:  77.034s  GET:  BAC.701   ServiceID: 32  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:35:09.08:  77.049s  GET:  BAC.632   ServiceID: 32  Request: 17  Queue: 19  Status: success
+08-Jul-2020, 13:35:09.08:  77.049s  GET:  BAC.702   ServiceID: 32  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:35:09.09:  77.065s  GET:  BAC.634   ServiceID: 32  Request: 18  Queue: 18  Status: success
+08-Jul-2020, 13:35:09.09:  77.065s  GET:  BAC.703   ServiceID: 32  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:35:09.25:  77.221s  GET:  BAC.701   ServiceID: 32  Request: 19  Queue: 17  Status: success
+08-Jul-2020, 13:35:09.25:  77.221s  GET:  BAC.704   ServiceID: 32  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:35:09.26:  77.237s  GET:  BAC.702   ServiceID: 32  Request: 20  Queue: 16  Status: success
+08-Jul-2020, 13:35:09.26:  77.237s  GET:  BAC.705   ServiceID: 32  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:35:09.27:  77.237s  GET:  BAC.703   ServiceID: 32  Request: 21  Queue: 15  Status: success
+08-Jul-2020, 13:35:09.27:  77.237s  GET:  BAC.713   ServiceID: 32  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:35:09.40:  77.361s  GET:  BAC.704   ServiceID: 32  Request: 22  Queue: 14  Status: success
+08-Jul-2020, 13:35:09.40:  77.361s  GET:  BAC.715   ServiceID: 32  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:35:09.41:  77.377s  GET:  BAC.705   ServiceID: 32  Request: 23  Queue: 13  Status: success
+08-Jul-2020, 13:35:09.41:  77.377s  GET:  BAC.717   ServiceID: 32  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:35:09.42:  77.393s  GET:  BAC.713   ServiceID: 32  Request: 24  Queue: 12  Status: success
+08-Jul-2020, 13:35:09.42:  77.393s  GET:  BAC.719   ServiceID: 32  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:35:09.52:  19806.900s  CONFIRM DEV: BAC.9744.DEV9744  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:09.52:  19806.900s  CONFIRM DEV: BAC.9745.DEV9745  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:09.55:  77.517s  GET:  BAC.715   ServiceID: 32  Request: 25  Queue: 11  Status: success
+08-Jul-2020, 13:35:09.55:  77.517s  GET:  BAC.721   ServiceID: 32  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:35:09.56:  77.533s  GET:  BAC.717   ServiceID: 32  Request: 26  Queue: 10  Status: success
+08-Jul-2020, 13:35:09.56:  77.533s  GET:  BAC.723   ServiceID: 32  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:35:09.57:  77.533s  GET:  BAC.719   ServiceID: 32  Request: 27  Queue: 9  Status: success
+08-Jul-2020, 13:35:09.57:  77.533s  GET:  BAC.725   ServiceID: 32  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:35:09.71:  77.673s  GET:  BAC.721   ServiceID: 32  Request: 28  Queue: 8  Status: success
+08-Jul-2020, 13:35:09.71:  77.673s  GET:  BAC.727   ServiceID: 32  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:35:09.72:  77.689s  GET:  BAC.723   ServiceID: 32  Request: 29  Queue: 7  Status: success
+08-Jul-2020, 13:35:09.72:  77.689s  GET:  BAC.729   ServiceID: 32  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:35:09.73:  77.705s  GET:  BAC.725   ServiceID: 32  Request: 30  Queue: 6  Status: success
+08-Jul-2020, 13:35:09.73:  77.705s  GET:  BAC.731   ServiceID: 32  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:35:09.92:  19806.900s  CONFIRM DEV: BAC.9745.DEV9745  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:09.92:  19806.900s  CONFIRM DEV: BAC.9746.DEV9746  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:09.94:  77.907s  GET:  BAC.727   ServiceID: 32  Request: 31  Queue: 5  Status: success
+08-Jul-2020, 13:35:09.94:  77.907s  GET:  BAC.733   ServiceID: 32  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:35:09.94:  77.907s  GET:  BAC.729   ServiceID: 32  Request: 32  Queue: 4  Status: success
+08-Jul-2020, 13:35:09.94:  77.907s  GET:  BAC.735   ServiceID: 32  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:35:09.94:  77.907s  GET:  BAC.731   ServiceID: 32  Request: 33  Queue: 3  Status: success
+08-Jul-2020, 13:35:09.94:  77.907s  GET:  BAC.9996   ServiceID: 32  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:35:10.09:  78.063s  GET:  BAC.733   ServiceID: 32  Request: 34  Queue: 2  Status: success
+08-Jul-2020, 13:35:10.09:  78.063s  GET:  BAC.9998   ServiceID: 32  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:35:10.11:  78.079s  GET:  BAC.735   ServiceID: 32  Request: 35  Queue: 1  Status: success
+08-Jul-2020, 13:35:10.11:  78.079s  GET:  BAC.9999   ServiceID: 32  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:35:10.24:  78.204s  GET:  BAC.9999   ServiceID: 31  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:35:10.28:  19806.900s  CONFIRM DEV: BAC.9746.DEV9746  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:10.28:  19806.900s  CONFIRM DEV: BAC.9747.DEV9747  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:10.41:  78.375s  GET:  BAC.9996   ServiceID: 32  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:10.43:  78.391s  GET:  BAC.9998   ServiceID: 32  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:35:10.48:  78.438s  GET:  BAC.9999   ServiceID: 32  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:10.72:  19806.900s  CONFIRM DEV: BAC.9747.DEV9747  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:10.72:  19806.900s  CONFIRM DEV: BAC.9748.DEV9748  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:11.13:  19806.900s  CONFIRM DEV: BAC.9748.DEV9748  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:11.13:  19806.900s  CONFIRM DEV: BAC.9749.DEV9749  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:11.52:  19806.900s  CONFIRM DEV: BAC.9749.DEV9749  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:11.52:  19806.900s  CONFIRM DEV: BAC.9750.DEV9750  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:11.90:  19806.900s  CONFIRM DEV: BAC.9750.DEV9750  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:11.90:  19806.900s  CONFIRM DEV: BAC.9751.DEV9751  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:12.27:  19806.900s  CONFIRM DEV: BAC.9751.DEV9751  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:12.28:  19806.900s  CONFIRM DEV: BAC.9752.DEV9752  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:12.66:  19806.900s  CONFIRM DEV: BAC.9752.DEV9752  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:12.66:  19806.900s  CONFIRM DEV: BAC.9753.DEV9753  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:12.86:  19806.900s  CONFIRM DEV: BAC.9753.DEV9753  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:12.86:  19806.900s  CONFIRM DEV: BAC.9754.DEV9754  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:13.17:  81.137s  GET:  BAC.505   ServiceID: 33  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:35:13.17:  81.137s  GET:  BAC.602   ServiceID: 33  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:35:13.17:  81.137s  GET:  BAC.604   ServiceID: 33  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:35:13.17:  81.137s  GET:  BAC.606   ServiceID: 33  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:35:13.20:  19806.900s  CONFIRM DEV: BAC.9754.DEV9754  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:13.20:  19806.900s  CONFIRM DEV: BAC.9756.DEV9756  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:13.24:  81.199s  GET:  BAC.505   ServiceID: 33  Request: 1  Queue: 34  Status: success
+08-Jul-2020, 13:35:13.24:  81.199s  GET:  BAC.608   ServiceID: 33  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:35:13.54:  19806.900s  CONFIRM DEV: BAC.9756.DEV9756  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:13.54:  19806.900s  CONFIRM DEV: BAC.9781.DEV9781  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:13.56:  81.527s  GET:  BAC.602   ServiceID: 33  Request: 2  Queue: 33  Status: success
+08-Jul-2020, 13:35:13.56:  81.527s  GET:  BAC.610   ServiceID: 33  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:35:13.58:  81.542s  GET:  BAC.604   ServiceID: 33  Request: 3  Queue: 32  Status: success
+08-Jul-2020, 13:35:13.58:  81.542s  GET:  BAC.612   ServiceID: 33  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:35:13.59:  81.558s  GET:  BAC.606   ServiceID: 33  Request: 4  Queue: 31  Status: success
+08-Jul-2020, 13:35:13.59:  81.558s  GET:  BAC.614   ServiceID: 33  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:35:13.60:  81.573s  GET:  BAC.608   ServiceID: 33  Request: 5  Queue: 30  Status: success
+08-Jul-2020, 13:35:13.60:  81.573s  GET:  BAC.616   ServiceID: 33  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:35:13.73:  81.698s  GET:  BAC.610   ServiceID: 33  Request: 6  Queue: 29  Status: success
+08-Jul-2020, 13:35:13.73:  81.698s  GET:  BAC.618   ServiceID: 33  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:35:13.74:  81.714s  GET:  BAC.612   ServiceID: 33  Request: 7  Queue: 28  Status: success
+08-Jul-2020, 13:35:13.74:  81.714s  GET:  BAC.620   ServiceID: 33  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:35:13.75:  81.729s  GET:  BAC.614   ServiceID: 33  Request: 8  Queue: 27  Status: success
+08-Jul-2020, 13:35:13.75:  81.729s  GET:  BAC.622   ServiceID: 33  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:35:13.76:  81.729s  GET:  BAC.616   ServiceID: 33  Request: 9  Queue: 26  Status: success
+08-Jul-2020, 13:35:13.76:  81.729s  GET:  BAC.624   ServiceID: 33  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:35:13.87:  19806.900s  CONFIRM DEV: BAC.9781.DEV9781  ServiceID: -  Request: -  Queue: 323  Result: success
+08-Jul-2020, 13:35:13.87:  19806.900s  CONFIRM DEV: BAC.9782.DEV9782  ServiceID: -  Request: -  Queue: 322  Result: in progress
+08-Jul-2020, 13:35:13.89:  81.854s  GET:  BAC.618   ServiceID: 33  Request: 10  Queue: 25  Status: success
+08-Jul-2020, 13:35:13.89:  81.854s  GET:  BAC.626   ServiceID: 33  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:35:13.91:  81.870s  GET:  BAC.622   ServiceID: 33  Request: 12  Queue: 24  Status: success
+08-Jul-2020, 13:35:13.91:  81.870s  GET:  BAC.628   ServiceID: 33  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:35:13.91:  81.870s  GET:  BAC.620   ServiceID: 33  Request: 11  Queue: 23  Status: success
+08-Jul-2020, 13:35:13.91:  81.870s  GET:  BAC.630   ServiceID: 33  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:35:13.92:  81.885s  GET:  BAC.624   ServiceID: 33  Request: 13  Queue: 22  Status: success
+08-Jul-2020, 13:35:13.92:  81.885s  GET:  BAC.632   ServiceID: 33  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:35:14.05:  82.010s  GET:  BAC.626   ServiceID: 33  Request: 14  Queue: 21  Status: success
+08-Jul-2020, 13:35:14.05:  82.010s  GET:  BAC.634   ServiceID: 33  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:35:14.06:  82.026s  GET:  BAC.628   ServiceID: 33  Request: 15  Queue: 20  Status: success
+08-Jul-2020, 13:35:14.06:  82.026s  GET:  BAC.701   ServiceID: 33  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:35:14.07:  82.041s  GET:  BAC.630   ServiceID: 33  Request: 16  Queue: 19  Status: success
+08-Jul-2020, 13:35:14.07:  82.041s  GET:  BAC.702   ServiceID: 33  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:35:14.08:  82.057s  GET:  BAC.632   ServiceID: 33  Request: 17  Queue: 18  Status: success
+08-Jul-2020, 13:35:14.08:  82.057s  GET:  BAC.703   ServiceID: 33  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:35:14.13:  82.104s  GET:  BAC.701   ServiceID: 33  Request: 19  Queue: 17  Status: success
+08-Jul-2020, 13:35:14.13:  82.104s  GET:  BAC.704   ServiceID: 33  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:35:14.16:  82.119s  GET:  BAC.702   ServiceID: 33  Request: 20  Queue: 16  Status: success
+08-Jul-2020, 13:35:14.16:  82.119s  GET:  BAC.705   ServiceID: 33  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:35:14.16:  82.119s  GET:  BAC.703   ServiceID: 33  Request: 21  Queue: 15  Status: success
+08-Jul-2020, 13:35:14.16:  82.119s  GET:  BAC.713   ServiceID: 33  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:35:14.17:  19806.900s  CONFIRM DEV: BAC.9782.DEV9782  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:14.17:  19806.900s  CONFIRM DEV: BAC.9783.DEV9783  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:14.29:  82.260s  GET:  BAC.634   ServiceID: 33  Request: 18  Queue: 14  Status: success
+08-Jul-2020, 13:35:14.29:  82.260s  GET:  BAC.715   ServiceID: 33  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:35:14.29:  82.260s  GET:  BAC.704   ServiceID: 33  Request: 22  Queue: 13  Status: success
+08-Jul-2020, 13:35:14.29:  82.260s  GET:  BAC.717   ServiceID: 33  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:35:14.31:  82.275s  GET:  BAC.705   ServiceID: 33  Request: 23  Queue: 12  Status: success
+08-Jul-2020, 13:35:14.31:  82.275s  GET:  BAC.719   ServiceID: 33  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:35:14.32:  82.291s  GET:  BAC.713   ServiceID: 33  Request: 24  Queue: 11  Status: success
+08-Jul-2020, 13:35:14.33:  82.291s  GET:  BAC.721   ServiceID: 33  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:35:14.47:  82.431s  GET:  BAC.715   ServiceID: 33  Request: 25  Queue: 10  Status: success
+08-Jul-2020, 13:35:14.47:  82.431s  GET:  BAC.723   ServiceID: 33  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:35:14.48:  82.447s  GET:  BAC.717   ServiceID: 33  Request: 26  Queue: 9  Status: success
+08-Jul-2020, 13:35:14.48:  82.447s  GET:  BAC.725   ServiceID: 33  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:35:14.49:  82.463s  GET:  BAC.719   ServiceID: 33  Request: 27  Queue: 8  Status: success
+08-Jul-2020, 13:35:14.49:  82.463s  GET:  BAC.727   ServiceID: 33  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:35:14.50:  82.463s  GET:  BAC.721   ServiceID: 33  Request: 28  Queue: 7  Status: success
+08-Jul-2020, 13:35:14.50:  82.463s  GET:  BAC.729   ServiceID: 33  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:35:14.50:  19806.900s  CONFIRM DEV: BAC.9783.DEV9783  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:14.50:  19806.900s  CONFIRM DEV: BAC.9784.DEV9784  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:14.66:  82.634s  GET:  BAC.723   ServiceID: 33  Request: 29  Queue: 6  Status: success
+08-Jul-2020, 13:35:14.66:  82.634s  GET:  BAC.731   ServiceID: 33  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:35:14.67:  82.634s  GET:  BAC.725   ServiceID: 33  Request: 30  Queue: 5  Status: success
+08-Jul-2020, 13:35:14.67:  82.634s  GET:  BAC.733   ServiceID: 33  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:35:14.68:  82.650s  GET:  BAC.727   ServiceID: 33  Request: 31  Queue: 4  Status: success
+08-Jul-2020, 13:35:14.68:  82.650s  GET:  BAC.735   ServiceID: 33  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:35:14.69:  82.665s  GET:  BAC.729   ServiceID: 33  Request: 32  Queue: 3  Status: success
+08-Jul-2020, 13:35:14.69:  82.665s  GET:  BAC.9996   ServiceID: 33  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:35:14.79:  19806.900s  CONFIRM DEV: BAC.9784.DEV9784  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:14.79:  19806.900s  CONFIRM DEV: BAC.9785.DEV9785  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:14.82:  82.790s  GET:  BAC.731   ServiceID: 33  Request: 33  Queue: 2  Status: success
+08-Jul-2020, 13:35:14.82:  82.790s  GET:  BAC.9998   ServiceID: 33  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:35:14.83:  82.806s  GET:  BAC.733   ServiceID: 33  Request: 34  Queue: 1  Status: success
+08-Jul-2020, 13:35:14.83:  82.806s  GET:  BAC.9999   ServiceID: 33  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:35:14.84:  82.806s  GET:  BAC.735   ServiceID: 33  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:35:14.88:  82.853s  GET:  BAC.9996   ServiceID: 33  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:15.09:  19806.900s  CONFIRM DEV: BAC.9785.DEV9785  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:15.09:  19806.900s  CONFIRM DEV: BAC.9786.DEV9786  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:15.10:  83.071s  GET:  BAC.9998   ServiceID: 33  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:35:15.15:  83.118s  GET:  BAC.9999   ServiceID: 33  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:15.38:  19806.900s  CONFIRM DEV: BAC.9786.DEV9786  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:15.38:  19806.900s  CONFIRM DEV: BAC.9787.DEV9787  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:15.72:  19806.900s  CONFIRM DEV: BAC.9787.DEV9787  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:15.72:  19806.900s  CONFIRM DEV: BAC.9788.DEV9788  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:16.06:  19806.900s  CONFIRM DEV: BAC.9788.DEV9788  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:16.06:  19806.900s  CONFIRM DEV: BAC.9789.DEV9789  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:16.38:  19806.900s  CONFIRM DEV: BAC.9789.DEV9789  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:16.39:  19806.900s  CONFIRM DEV: BAC.9790.DEV9790  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:16.67:  19806.900s  CONFIRM DEV: BAC.9790.DEV9790  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:16.67:  19806.900s  CONFIRM DEV: BAC.9791.DEV9791  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:17.06:  19806.900s  CONFIRM DEV: BAC.9791.DEV9791  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:17.06:  19806.900s  CONFIRM DEV: BAC.9792.DEV9792  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:17.44:  85.411s  GET:  BAC.9999   ServiceID: 34  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:35:17.46:  19806.900s  CONFIRM DEV: BAC.9792.DEV9792  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:17.46:  19806.900s  CONFIRM DEV: BAC.9793.DEV9793  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:17.87:  19806.900s  CONFIRM DEV: BAC.9793.DEV9793  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:17.87:  19806.900s  CONFIRM DEV: BAC.9794.DEV9794  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:18.18:  86.144s  GET:  BAC.505   ServiceID: 35  Request: 1  Queue: 37  Status: in progress
+08-Jul-2020, 13:35:18.18:  86.144s  GET:  BAC.602   ServiceID: 35  Request: 2  Queue: 36  Status: in progress
+08-Jul-2020, 13:35:18.18:  86.144s  GET:  BAC.604   ServiceID: 35  Request: 3  Queue: 35  Status: in progress
+08-Jul-2020, 13:35:18.25:  86.222s  GET:  BAC.602   ServiceID: 35  Request: 2  Queue: 35  Status: success
+08-Jul-2020, 13:35:18.25:  86.222s  GET:  BAC.606   ServiceID: 35  Request: 4  Queue: 34  Status: in progress
+08-Jul-2020, 13:35:18.26:  86.222s  GET:  BAC.604   ServiceID: 35  Request: 3  Queue: 34  Status: success
+08-Jul-2020, 13:35:18.26:  86.222s  GET:  BAC.608   ServiceID: 35  Request: 5  Queue: 33  Status: in progress
+08-Jul-2020, 13:35:18.26:  86.222s  GET:  BAC.505   ServiceID: 35  Request: 1  Queue: 33  Status: success
+08-Jul-2020, 13:35:18.26:  86.222s  GET:  BAC.610   ServiceID: 35  Request: 6  Queue: 32  Status: in progress
+08-Jul-2020, 13:35:18.27:  19806.900s  CONFIRM DEV: BAC.9794.DEV9794  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:18.27:  19806.900s  CONFIRM DEV: BAC.9796.DEV9796  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:18.59:  19806.900s  CONFIRM DEV: BAC.9796.DEV9796  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:18.59:  19806.900s  CONFIRM DEV: BAC.9801.DEV9801  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:18.69:  86.659s  GET:  BAC.606   ServiceID: 35  Request: 4  Queue: 32  Status: success
+08-Jul-2020, 13:35:18.69:  86.659s  GET:  BAC.612   ServiceID: 35  Request: 7  Queue: 31  Status: in progress
+08-Jul-2020, 13:35:18.70:  86.675s  GET:  BAC.608   ServiceID: 35  Request: 5  Queue: 31  Status: success
+08-Jul-2020, 13:35:18.70:  86.675s  GET:  BAC.614   ServiceID: 35  Request: 8  Queue: 30  Status: in progress
+08-Jul-2020, 13:35:18.71:  86.675s  GET:  BAC.610   ServiceID: 35  Request: 6  Queue: 30  Status: success
+08-Jul-2020, 13:35:18.71:  86.675s  GET:  BAC.616   ServiceID: 35  Request: 9  Queue: 29  Status: in progress
+08-Jul-2020, 13:35:18.79:  19806.900s  CONFIRM DEV: BAC.9801.DEV9801  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:18.79:  19806.900s  CONFIRM DEV: BAC.9802.DEV9802  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:18.85:  86.815s  GET:  BAC.612   ServiceID: 35  Request: 7  Queue: 29  Status: success
+08-Jul-2020, 13:35:18.85:  86.815s  GET:  BAC.618   ServiceID: 35  Request: 10  Queue: 28  Status: in progress
+08-Jul-2020, 13:35:18.86:  86.831s  GET:  BAC.614   ServiceID: 35  Request: 8  Queue: 28  Status: success
+08-Jul-2020, 13:35:18.86:  86.831s  GET:  BAC.620   ServiceID: 35  Request: 11  Queue: 27  Status: in progress
+08-Jul-2020, 13:35:18.87:  86.846s  GET:  BAC.616   ServiceID: 35  Request: 9  Queue: 27  Status: success
+08-Jul-2020, 13:35:18.87:  86.846s  GET:  BAC.622   ServiceID: 35  Request: 12  Queue: 26  Status: in progress
+08-Jul-2020, 13:35:19.00:  86.971s  GET:  BAC.618   ServiceID: 35  Request: 10  Queue: 26  Status: success
+08-Jul-2020, 13:35:19.00:  86.971s  GET:  BAC.624   ServiceID: 35  Request: 13  Queue: 25  Status: in progress
+08-Jul-2020, 13:35:19.01:  86.987s  GET:  BAC.620   ServiceID: 35  Request: 11  Queue: 25  Status: success
+08-Jul-2020, 13:35:19.01:  86.987s  GET:  BAC.626   ServiceID: 35  Request: 14  Queue: 24  Status: in progress
+08-Jul-2020, 13:35:19.02:  86.987s  GET:  BAC.622   ServiceID: 35  Request: 12  Queue: 24  Status: success
+08-Jul-2020, 13:35:19.02:  86.987s  GET:  BAC.628   ServiceID: 35  Request: 15  Queue: 23  Status: in progress
+08-Jul-2020, 13:35:19.07:  19806.900s  CONFIRM DEV: BAC.9802.DEV9802  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:19.07:  19806.900s  CONFIRM DEV: BAC.9803.DEV9803  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:19.15:  87.127s  GET:  BAC.624   ServiceID: 35  Request: 13  Queue: 23  Status: success
+08-Jul-2020, 13:35:19.15:  87.127s  GET:  BAC.630   ServiceID: 35  Request: 16  Queue: 22  Status: in progress
+08-Jul-2020, 13:35:19.16:  87.127s  GET:  BAC.626   ServiceID: 35  Request: 14  Queue: 22  Status: success
+08-Jul-2020, 13:35:19.16:  87.127s  GET:  BAC.632   ServiceID: 35  Request: 17  Queue: 21  Status: in progress
+08-Jul-2020, 13:35:19.17:  87.143s  GET:  BAC.628   ServiceID: 35  Request: 15  Queue: 21  Status: success
+08-Jul-2020, 13:35:19.17:  87.143s  GET:  BAC.634   ServiceID: 35  Request: 18  Queue: 20  Status: in progress
+08-Jul-2020, 13:35:19.32:  87.283s  GET:  BAC.630   ServiceID: 35  Request: 16  Queue: 20  Status: success
+08-Jul-2020, 13:35:19.32:  87.283s  GET:  BAC.701   ServiceID: 35  Request: 19  Queue: 19  Status: in progress
+08-Jul-2020, 13:35:19.33:  87.299s  GET:  BAC.632   ServiceID: 35  Request: 17  Queue: 19  Status: success
+08-Jul-2020, 13:35:19.33:  87.299s  GET:  BAC.702   ServiceID: 35  Request: 20  Queue: 18  Status: in progress
+08-Jul-2020, 13:35:19.33:  87.299s  GET:  BAC.634   ServiceID: 35  Request: 18  Queue: 18  Status: success
+08-Jul-2020, 13:35:19.33:  87.299s  GET:  BAC.703   ServiceID: 35  Request: 21  Queue: 17  Status: in progress
+08-Jul-2020, 13:35:19.35:  19806.900s  CONFIRM DEV: BAC.9803.DEV9803  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:19.35:  19806.900s  CONFIRM DEV: BAC.9804.DEV9804  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:19.58:  87.548s  GET:  BAC.701   ServiceID: 35  Request: 19  Queue: 17  Status: success
+08-Jul-2020, 13:35:19.58:  87.548s  GET:  BAC.704   ServiceID: 35  Request: 22  Queue: 16  Status: in progress
+08-Jul-2020, 13:35:19.58:  87.548s  GET:  BAC.702   ServiceID: 35  Request: 20  Queue: 16  Status: success
+08-Jul-2020, 13:35:19.58:  87.548s  GET:  BAC.705   ServiceID: 35  Request: 23  Queue: 15  Status: in progress
+08-Jul-2020, 13:35:19.60:  87.564s  GET:  BAC.703   ServiceID: 35  Request: 21  Queue: 15  Status: success
+08-Jul-2020, 13:35:19.60:  87.564s  GET:  BAC.713   ServiceID: 35  Request: 24  Queue: 14  Status: in progress
+08-Jul-2020, 13:35:19.75:  87.720s  GET:  BAC.704   ServiceID: 35  Request: 22  Queue: 14  Status: success
+08-Jul-2020, 13:35:19.75:  87.720s  GET:  BAC.715   ServiceID: 35  Request: 25  Queue: 13  Status: in progress
+08-Jul-2020, 13:35:19.77:  87.735s  GET:  BAC.705   ServiceID: 35  Request: 23  Queue: 13  Status: success
+08-Jul-2020, 13:35:19.77:  87.735s  GET:  BAC.717   ServiceID: 35  Request: 26  Queue: 12  Status: in progress
+08-Jul-2020, 13:35:19.77:  87.735s  GET:  BAC.713   ServiceID: 35  Request: 24  Queue: 12  Status: success
+08-Jul-2020, 13:35:19.77:  87.735s  GET:  BAC.719   ServiceID: 35  Request: 27  Queue: 11  Status: in progress
+08-Jul-2020, 13:35:19.97:  87.938s  GET:  BAC.715   ServiceID: 35  Request: 25  Queue: 11  Status: success
+08-Jul-2020, 13:35:19.97:  87.938s  GET:  BAC.721   ServiceID: 35  Request: 28  Queue: 10  Status: in progress
+08-Jul-2020, 13:35:19.98:  87.938s  GET:  BAC.717   ServiceID: 35  Request: 26  Queue: 10  Status: success
+08-Jul-2020, 13:35:19.98:  87.938s  GET:  BAC.723   ServiceID: 35  Request: 29  Queue: 9  Status: in progress
+08-Jul-2020, 13:35:19.99:  87.954s  GET:  BAC.719   ServiceID: 35  Request: 27  Queue: 9  Status: success
+08-Jul-2020, 13:35:19.99:  87.954s  GET:  BAC.725   ServiceID: 35  Request: 30  Queue: 8  Status: in progress
+08-Jul-2020, 13:35:20.19:  88.157s  GET:  BAC.721   ServiceID: 35  Request: 28  Queue: 8  Status: success
+08-Jul-2020, 13:35:20.19:  88.157s  GET:  BAC.727   ServiceID: 35  Request: 31  Queue: 7  Status: in progress
+08-Jul-2020, 13:35:20.20:  88.172s  GET:  BAC.723   ServiceID: 35  Request: 29  Queue: 7  Status: success
+08-Jul-2020, 13:35:20.20:  88.172s  GET:  BAC.729   ServiceID: 35  Request: 32  Queue: 6  Status: in progress
+08-Jul-2020, 13:35:20.22:  88.188s  GET:  BAC.9999   ServiceID: 34  Request: 1  Queue: 6  Status: success
+08-Jul-2020, 13:35:20.22:  88.188s  GET:  BAC.731   ServiceID: 35  Request: 33  Queue: 5  Status: in progress
+08-Jul-2020, 13:35:20.31:  88.281s  GET:  BAC.725   ServiceID: 35  Request: 30  Queue: 5  Status: success
+08-Jul-2020, 13:35:20.31:  88.281s  GET:  BAC.733   ServiceID: 35  Request: 34  Queue: 4  Status: in progress
+08-Jul-2020, 13:35:20.40:  88.359s  GET:  BAC.727   ServiceID: 35  Request: 31  Queue: 4  Status: success
+08-Jul-2020, 13:35:20.40:  88.359s  GET:  BAC.735   ServiceID: 35  Request: 35  Queue: 3  Status: in progress
+08-Jul-2020, 13:35:20.40:  88.375s  GET:  BAC.729   ServiceID: 35  Request: 32  Queue: 3  Status: success
+08-Jul-2020, 13:35:20.40:  88.375s  GET:  BAC.9996   ServiceID: 35  Request: 36  Queue: 2  Status: in progress
+08-Jul-2020, 13:35:20.41:  88.375s  GET:  BAC.731   ServiceID: 35  Request: 33  Queue: 2  Status: success
+08-Jul-2020, 13:35:20.41:  88.375s  GET:  BAC.9998   ServiceID: 35  Request: 37  Queue: 1  Status: in progress
+08-Jul-2020, 13:35:20.42:  88.391s  GET:  BAC.733   ServiceID: 35  Request: 34  Queue: 1  Status: success
+08-Jul-2020, 13:35:20.42:  88.391s  GET:  BAC.9999   ServiceID: 35  Request: 38  Queue: 0  Status: in progress
+08-Jul-2020, 13:35:20.44:  19806.900s  CONFIRM DEV: BAC.9804.DEV9804  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:20.44:  19806.900s  CONFIRM DEV: BAC.9805.DEV9805  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:20.54:  88.515s  GET:  BAC.735   ServiceID: 35  Request: 35  Queue: 0  Status: success
+08-Jul-2020, 13:35:20.72:  88.687s  GET:  BAC.9996   ServiceID: 35  Request: 36  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:20.74:  88.703s  GET:  BAC.9998   ServiceID: 35  Request: 37  Queue: 0  Status: success
+08-Jul-2020, 13:35:20.79:  88.749s  GET:  BAC.9999   ServiceID: 35  Request: 38  Queue: 0  Status: ** partial failure
+08-Jul-2020, 13:35:20.80:  19806.900s  CONFIRM DEV: BAC.9805.DEV9805  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:20.81:  19806.900s  CONFIRM DEV: BAC.9806.DEV9806  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:21.17:  19806.900s  CONFIRM DEV: BAC.9806.DEV9806  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:21.17:  19806.900s  CONFIRM DEV: BAC.9807.DEV9807  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:21.54:  19806.900s  CONFIRM DEV: BAC.9807.DEV9807  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:21.54:  19806.900s  CONFIRM DEV: BAC.9808.DEV9808  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:21.91:  19806.900s  CONFIRM DEV: BAC.9808.DEV9808  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:21.91:  19806.900s  CONFIRM DEV: BAC.9809.DEV9809  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:22.28:  19806.900s  CONFIRM DEV: BAC.9809.DEV9809  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:22.28:  19806.900s  CONFIRM DEV: BAC.9810.DEV9810  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:22.60:  19806.900s  CONFIRM DEV: BAC.9810.DEV9810  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:22.60:  19806.900s  CONFIRM DEV: BAC.9811.DEV9811  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:22.64:  90.606s  RELEASE FEATURES:  BAC.*   ServiceID: 36  Request: 1  Queue: 0  Status: in progress
+08-Jul-2020, 13:35:22.64:  90.606s  RELEASE FEATURES:  BAC.*   ServiceID: 36  Request: 1  Queue: 0  Status: success
+08-Jul-2020, 13:35:22.64:  **************************************
+08-Jul-2020, 13:35:22.64:  Logoff Started:
+08-Jul-2020, 13:35:22.64:    User: DELTA
+08-Jul-2020, 13:35:22.64:    Logging off connection: 1
+08-Jul-2020, 13:35:22.85:      Saving User Database: OK
+08-Jul-2020, 13:35:22.85:  
+08-Jul-2020, 13:35:22.85:  SITE CLEANUP:
+08-Jul-2020, 13:35:22.85:      Stopping Alarm Handling: OK
+08-Jul-2020, 13:35:22.89:      Stopping Object Execution: OK
+08-Jul-2020, 13:35:22.89:      Stopping Data Exchange: OK
+08-Jul-2020, 13:35:22.89:  
+08-Jul-2020, 13:35:22.89:  NETWORK SHUTDOWN:
+08-Jul-2020, 13:35:22.93:  19806.900s  CONFIRM DEV: BAC.9811.DEV9811  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:22.93:  19806.900s  CONFIRM DEV: BAC.9812.DEV9812  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:23.25:  19806.900s  CONFIRM DEV: BAC.9812.DEV9812  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:23.25:  19806.900s  CONFIRM DEV: BAC.9813.DEV9813  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:23.58:  19806.900s  CONFIRM DEV: BAC.9813.DEV9813  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:23.58:  19806.900s  CONFIRM DEV: BAC.9814.DEV9814  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:23.98:  19806.900s  CONFIRM DEV: BAC.9814.DEV9814  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:23.98:  19806.900s  CONFIRM DEV: BAC.9815.DEV9815  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:24.31:  19806.900s  CONFIRM DEV: BAC.9815.DEV9815  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:24.31:  19806.900s  CONFIRM DEV: BAC.9821.DEV9821  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:24.54:        Stopping BACnet
+08-Jul-2020, 13:35:24.68:  19806.900s  CONFIRM DEV: BAC.9821.DEV9821  ServiceID: -  Request: -  Queue: 322  Result: success
+08-Jul-2020, 13:35:24.68:  19806.900s  CONFIRM DEV: BAC.9822.DEV9822  ServiceID: -  Request: -  Queue: 321  Result: in progress
+08-Jul-2020, 13:35:24.91:      Stopping Network: OK
+08-Jul-2020, 13:35:24.91:      Stopping Descriptor Processing: IN PROGRESS
+08-Jul-2020, 13:35:25.01:  19806.900s  CONFIRM DEV: BAC.9822.DEV9822  ServiceID: -  Request: -  Queue: 1  Result: ** failed
+08-Jul-2020, 13:35:25.01:      *** DESCRIPTOR Thread TERMINATING
+08-Jul-2020, 13:35:25.01:      Stopping Descriptor Processing: COMPLETE
+08-Jul-2020, 13:35:25.01:  
+08-Jul-2020, 13:35:25.01:    Worker Thread Cleanup:
+08-Jul-2020, 13:35:25.01:      *** WORKER Thread (1) TERMINATING
+08-Jul-2020, 13:35:25.01:      *** WORKER Thread (3) TERMINATING
+08-Jul-2020, 13:35:25.01:      *** WORKER Thread (2) TERMINATING
+08-Jul-2020, 13:35:25.01:      *** WORKER Thread (4) TERMINATING
+08-Jul-2020, 13:35:25.01:      ALL Server Threads have exited
+08-Jul-2020, 13:35:25.01:  
+08-Jul-2020, 13:35:25.01:    Network Cleanup:
+08-Jul-2020, 13:35:25.01:      Cleaning up Alarm Handling: OK
+08-Jul-2020, 13:35:25.01:      *** RPL Thread TERMINATING
+08-Jul-2020, 13:35:25.01:      Cleaning up NP (Pass Server): OK
+08-Jul-2020, 13:35:25.01:      Cleaning up Object Systems:
+08-Jul-2020, 13:35:25.01:        Cleaning up BACnet
+08-Jul-2020, 13:35:25.01:  
+08-Jul-2020, 13:35:25.01:  LOCAL CLEANUP:
+08-Jul-2020, 13:35:25.01:      Saving Database files
+08-Jul-2020, 13:35:25.37:      Saving Security Database: OK
+08-Jul-2020, 13:35:25.43:      Saving Basic Database: OK
+08-Jul-2020, 13:35:25.43:      Cleaning Up Object Execution: OK
+08-Jul-2020, 13:35:25.43:      Cleaning Up Data Exchange: OK
+08-Jul-2020, 13:35:25.43:      Cleaning Up the Local Interface: OK
+08-Jul-2020, 13:35:25.43:      Cleaning up Descriptor Processing: OK
+08-Jul-2020, 13:35:25.61:      Cleaning Up Descriptor Table: OK
+08-Jul-2020, 13:35:25.65:      Reloading Basic Database: OK
+08-Jul-2020, 13:35:25.65:      Terminating Maintenance Thread...
+08-Jul-2020, 13:35:25.65:      *** MAINTENANCE Thread TERMINATING
+08-Jul-2020, 13:35:25.66:  
+08-Jul-2020, 13:35:25.66:  >>> DISCONNECT hConnection 1, RegionID 3
+08-Jul-2020, 13:35:25.66:  
+08-Jul-2020, 13:35:25.66:  SERVER EXITING
+08-Jul-2020, 13:35:25.66:  **** Server - final shutdown

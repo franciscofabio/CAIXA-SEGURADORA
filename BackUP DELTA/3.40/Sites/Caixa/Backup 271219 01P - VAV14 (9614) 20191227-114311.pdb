@@ -1,0 +1,57 @@
+; Delta Controls Database File, Vendor=8, Device=9614
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DEV9614.ObjectId , r
+DEV9614
+DEV9614.ObjType , r
+Device
+DEV9614.Name , w
+01P - VAV14
+DEV9614.Flags , r
+
+DEV9614.Value , r
+Operational
+DEV9614.Vendor , r
+Delta Controls
+DEV9614.VendorId , r
+8.000000
+DEV9614.ModelName , r
+DZNT-T0
+DEV9614.FirmwareVersion , r
+5024
+DEV9614.HardwareRevision , r
+1.3 
+DEV9614.ApplicationSWVersion , r
+4.0
+DEV9614.ProtocolVersion , r
+1
+DEV9614.ProtocolRevision , r
+3
+DEV9614.ProtocolServicesSupported , r
+SubscribeCOV, ReadProperty, ReadPropertyMultiple, WriteProperty, DeviceCommunicationControl, ReinitializeDevice, WhoHas, WhoIs
+DEV9614.ProtocolObjectTypesSupported , r
+Analog Input, Analog Value, Device
+DEV9614.ObjectList[1] , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.MaxAPDULength , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.SegmentationSupported , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.APDUTimeout , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.APDURetries , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.ResetCount , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.MaxMaster , w
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.MaxInfoFrames , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.KnownDevices[1] , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.StatusFlags , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.CommissionFlag , w
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9614.Platform , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>

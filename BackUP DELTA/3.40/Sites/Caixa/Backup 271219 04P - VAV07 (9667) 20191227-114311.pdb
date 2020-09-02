@@ -1,0 +1,153 @@
+; Delta Controls Database File, Vendor=8, Device=9667
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DEV9667.ObjectId , r
+DEV9667
+DEV9667.ObjType , r
+Device
+DEV9667.Name , w
+04P - VAV07
+DEV9667.Flags , r
+
+DEV9667.Value , r
+Operational
+DEV9667.Vendor , r
+Delta Controls
+DEV9667.VendorId , r
+8.000000
+DEV9667.ModelName , r
+DZNT-T0
+DEV9667.FirmwareVersion , r
+5024
+DEV9667.HardwareRevision , r
+1.3 
+DEV9667.ApplicationSWVersion , r
+4.0
+DEV9667.ProtocolVersion , r
+1
+DEV9667.ProtocolRevision , r
+3
+DEV9667.ProtocolServicesSupported , r
+SubscribeCOV, ReadProperty, ReadPropertyMultiple, WriteProperty, DeviceCommunicationControl, ReinitializeDevice, WhoHas, WhoIs
+DEV9667.ProtocolObjectTypesSupported , r
+Analog Input, Analog Value, Device
+DEV9667.ObjectList[1] , r
+DEV9667
+DEV9667.ObjectList[2] , r
+AI1
+DEV9667.ObjectList[3] , r
+AI2
+DEV9667.ObjectList[4] , r
+AI3
+DEV9667.ObjectList[5] , r
+AI4
+DEV9667.ObjectList[6] , r
+AV1
+DEV9667.ObjectList[7] , r
+AV2
+DEV9667.ObjectList[8] , r
+AV3
+DEV9667.ObjectList[9] , r
+AV4
+DEV9667.ObjectList[10] , r
+AV5
+DEV9667.ObjectList[11] , r
+AV6
+DEV9667.ObjectList[12] , r
+AV7
+DEV9667.ObjectList[13] , r
+AV8
+DEV9667.ObjectList[14] , r
+AV9
+DEV9667.ObjectList[15] , r
+AV10
+DEV9667.ObjectList[16] , r
+AV11
+DEV9667.ObjectList[17] , r
+AV12
+DEV9667.ObjectList[18] , r
+AV13
+DEV9667.ObjectList[19] , r
+AV14
+DEV9667.ObjectList[20] , r
+AV15
+DEV9667.ObjectList[21] , r
+AV16
+DEV9667.ObjectList[22] , r
+AV17
+DEV9667.ObjectList[23] , r
+AV18
+DEV9667.ObjectList[24] , r
+AV19
+DEV9667.ObjectList[25] , r
+AV20
+DEV9667.ObjectList[26] , r
+AV21
+DEV9667.ObjectList[27] , r
+AV22
+DEV9667.ObjectList[28] , r
+AV23
+DEV9667.ObjectList[29] , r
+AV24
+DEV9667.ObjectList[30] , r
+AV25
+DEV9667.ObjectList[31] , r
+AV26
+DEV9667.ObjectList[32] , r
+AV27
+DEV9667.ObjectList[33] , r
+AV28
+DEV9667.ObjectList[34] , r
+AV29
+DEV9667.ObjectList[35] , r
+AV30
+DEV9667.ObjectList[36] , r
+AV31
+DEV9667.ObjectList[37] , r
+AV32
+DEV9667.ObjectList[38] , r
+AV33
+DEV9667.ObjectList[39] , r
+AV34
+DEV9667.ObjectList[40] , r
+AV35
+DEV9667.ObjectList[41] , r
+AV36
+DEV9667.ObjectList[42] , r
+AV37
+DEV9667.ObjectList[43] , r
+AV38
+DEV9667.ObjectList[44] , r
+AV39
+DEV9667.ObjectList[45] , r
+AV40
+DEV9667.ObjectList[46] , r
+AV41
+DEV9667.ObjectList[47] , r
+AV42
+DEV9667.ObjectList[48] , r
+AV43
+DEV9667.ObjectList[49] , r
+AV44
+DEV9667.ObjectList[50] , r
+AV45
+DEV9667.MaxAPDULength , r
+480.000000
+DEV9667.SegmentationSupported , r
+No Segmentation
+DEV9667.APDUTimeout , r
+60000.000000
+DEV9667.APDURetries , r
+3.000000
+DEV9667.ResetCount , r
+118.000000
+DEV9667.MaxMaster , w
+127.000000
+DEV9667.MaxInfoFrames , r
+8.000000
+DEV9667.KnownDevices[1] , r
+
+DEV9667.CommissionFlag , w
+Not Commissioned
+DEV9667.Platform , r
+Bacstat 2

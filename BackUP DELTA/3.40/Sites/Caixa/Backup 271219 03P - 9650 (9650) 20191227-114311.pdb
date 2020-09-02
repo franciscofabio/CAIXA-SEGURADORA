@@ -1,0 +1,155 @@
+; Delta Controls Database File, Vendor=8, Device=9650
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DEV9650.ObjectId , r
+DEV9650
+DEV9650.ObjType , r
+Device
+DEV9650.Name , w
+03P - 9650
+DEV9650.Flags , r
+
+DEV9650.Value , r
+Operational
+DEV9650.Vendor , r
+Delta Controls
+DEV9650.VendorId , r
+8.000000
+DEV9650.ModelName , r
+DZNT-T0
+DEV9650.FirmwareVersion , r
+5024
+DEV9650.HardwareRevision , r
+1.3 
+DEV9650.ApplicationSWVersion , r
+4.0
+DEV9650.ProtocolVersion , r
+1
+DEV9650.ProtocolRevision , r
+3
+DEV9650.ProtocolServicesSupported , r
+SubscribeCOV, ReadProperty, ReadPropertyMultiple, WriteProperty, DeviceCommunicationControl, ReinitializeDevice, WhoHas, WhoIs
+DEV9650.ProtocolObjectTypesSupported , r
+Analog Input, Analog Value, Device
+DEV9650.ObjectList[1] , r
+DEV9650
+DEV9650.ObjectList[2] , r
+AI1
+DEV9650.ObjectList[3] , r
+AI2
+DEV9650.ObjectList[4] , r
+AI3
+DEV9650.ObjectList[5] , r
+AI4
+DEV9650.ObjectList[6] , r
+AV1
+DEV9650.ObjectList[7] , r
+AV2
+DEV9650.ObjectList[8] , r
+AV3
+DEV9650.ObjectList[9] , r
+AV4
+DEV9650.ObjectList[10] , r
+AV5
+DEV9650.ObjectList[11] , r
+AV6
+DEV9650.ObjectList[12] , r
+AV7
+DEV9650.ObjectList[13] , r
+AV8
+DEV9650.ObjectList[14] , r
+AV9
+DEV9650.ObjectList[15] , r
+AV10
+DEV9650.ObjectList[16] , r
+AV11
+DEV9650.ObjectList[17] , r
+AV12
+DEV9650.ObjectList[18] , r
+AV13
+DEV9650.ObjectList[19] , r
+AV14
+DEV9650.ObjectList[20] , r
+AV15
+DEV9650.ObjectList[21] , r
+AV16
+DEV9650.ObjectList[22] , r
+AV17
+DEV9650.ObjectList[23] , r
+AV18
+DEV9650.ObjectList[24] , r
+AV19
+DEV9650.ObjectList[25] , r
+AV20
+DEV9650.ObjectList[26] , r
+AV21
+DEV9650.ObjectList[27] , r
+AV22
+DEV9650.ObjectList[28] , r
+AV23
+DEV9650.ObjectList[29] , r
+AV24
+DEV9650.ObjectList[30] , r
+AV25
+DEV9650.ObjectList[31] , r
+AV26
+DEV9650.ObjectList[32] , r
+AV27
+DEV9650.ObjectList[33] , r
+AV28
+DEV9650.ObjectList[34] , r
+AV29
+DEV9650.ObjectList[35] , r
+AV30
+DEV9650.ObjectList[36] , r
+AV31
+DEV9650.ObjectList[37] , r
+AV32
+DEV9650.ObjectList[38] , r
+AV33
+DEV9650.ObjectList[39] , r
+AV34
+DEV9650.ObjectList[40] , r
+AV35
+DEV9650.ObjectList[41] , r
+AV36
+DEV9650.ObjectList[42] , r
+AV37
+DEV9650.ObjectList[43] , r
+AV38
+DEV9650.ObjectList[44] , r
+AV39
+DEV9650.ObjectList[45] , r
+AV40
+DEV9650.ObjectList[46] , r
+AV41
+DEV9650.ObjectList[47] , r
+AV42
+DEV9650.ObjectList[48] , r
+AV43
+DEV9650.ObjectList[49] , r
+AV44
+DEV9650.ObjectList[50] , r
+AV45
+DEV9650.MaxAPDULength , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.SegmentationSupported , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.APDUTimeout , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.APDURetries , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.ResetCount , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.MaxMaster , w
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.MaxInfoFrames , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.KnownDevices[1] , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.StatusFlags , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.CommissionFlag , w
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
+DEV9650.Platform , r
+<FAILED TO RETRIEVE DATA: COMM TIMEOUT>
